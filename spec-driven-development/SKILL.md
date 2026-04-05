@@ -1,6 +1,6 @@
 ---
 name: spec-driven-development
-description: "Specification-Driven Development (SDD) workflow — takes any vague requirement or feature idea and transforms it into structured, implementation-ready specs. Use when the user says 'spec this', 'create requirements', 'write a spec', 'plan this feature', 'SDD', 'spec driven', 'specification', 'requirements doc', 'design doc', 'task list', 'break this down', 'plan this', 'refine this idea', 'turn this into tasks', or when they describe a feature they want to build. Also use when working with .kiro/specs directories or any specification workflow. Even if the user just says 'I want to build X' — use this skill to capture and structure their intent before coding."
+description: "Specification-Driven Development (SDD) workflow — takes any vague requirement or feature idea and transforms it into structured, implementation-ready specs. Use when the user says 'spec this', 'create requirements', 'write a spec', 'plan this feature', 'SDD', 'spec driven', 'specification', 'requirements doc', 'design doc', 'task list', 'break this down', 'plan this', 'refine this idea', 'turn this into tasks', or when they describe a feature they want to build. Also use when working with .fade/specs directories or any specification workflow. Even if the user just says 'I want to build X' — use this skill to capture and structure their intent before coding."
 ---
 
 # Spec-Driven Development (SDD)
@@ -13,7 +13,7 @@ This skill transforms vague ideas into structured, implementation-ready specific
 2. **design.md** — How to build it (architecture + interfaces + data model)
 3. **tasks.md** — What to do first (ordered, dependency-aware implementation checklist)
 
-**CRITICAL: All specs MUST be written to actual files on disk — never just printed as chat output.** Create the directory `.kiro/specs/<feature-name>/` and write each artifact as a real file inside it. The user should be able to open and read these files in their editor after generation. If you only output specs as text in the conversation without creating files, you have failed the task.
+**CRITICAL: All specs MUST be written to actual files on disk — never just printed as chat output.** Create the directory `.fade/specs/<feature-name>/` and write each artifact as a real file inside it. The user should be able to open and read these files in their editor after generation. If you only output specs as text in the conversation without creating files, you have failed the task.
 
 ---
 
@@ -158,7 +158,7 @@ Rules:
 
 ---
 
-## Phase 5: Generate Config (`.config.kiro`)
+## Phase 5: Generate Config (`.config.fade`)
 
 Create a JSON metadata file:
 
@@ -177,23 +177,23 @@ Generate the UUID using `crypto.randomUUID()` or equivalent.
 Follow this exact procedure for every SDD run:
 
 1. Derive `<feature-name>` as a kebab-case slug from the feature description (e.g., "user notifications" → `user-notifications`)
-2. Create the directory: `mkdir -p .kiro/specs/<feature-name>/`
+2. Create the directory: `mkdir -p .fade/specs/<feature-name>/`
 3. Write each artifact as a file using the file creation tool:
-   - `.kiro/specs/<feature-name>/.config.kiro`
-   - `.kiro/specs/<feature-name>/requirements.md`
-   - `.kiro/specs/<feature-name>/design.md`
-   - `.kiro/specs/<feature-name>/tasks.md`
+   - `.fade/specs/<feature-name>/.config.fade`
+   - `.fade/specs/<feature-name>/requirements.md`
+   - `.fade/specs/<feature-name>/design.md`
+   - `.fade/specs/<feature-name>/tasks.md`
 4. After creating files, confirm to the user with the full path to the spec directory
 
 ```
-.kiro/specs/<feature-name>/
-├── .config.kiro        ← metadata (UUID, workflow type)
+.fade/specs/<feature-name>/
+├── .config.fade        ← metadata (UUID, workflow type)
 ├── requirements.md     ← user stories + acceptance criteria
 ├── design.md           ← architecture + components + data model
 └── tasks.md            ← ordered implementation checklist
 ```
 
-- If the project already has `.kiro/specs/`, use it; otherwise create it
+- If the project already has `.fade/specs/`, use it; otherwise create it
 - If a spec with the same name exists, ask before overwriting
 - For partial workflows (only one artifact requested), still create the directory and write the file(s) to disk
 

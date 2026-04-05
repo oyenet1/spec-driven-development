@@ -78,7 +78,7 @@ Break the design into an ordered implementation checklist:
 
 ### Phase 5: Config & Metadata
 
-Generate the `.config.kiro` file with a unique spec ID, workflow type, and spec type. This enables tooling to track and manage specs.
+Generate the `.config.fade` file with a unique spec ID, workflow type, and spec type. This enables tooling to track and manage specs.
 
 ---
 

@@ -110,7 +110,7 @@ Focus on: [specific area — e.g., "security requirements" or "API contracts"]
 
 ```
 Generate tasks for: [feature description]
-Design doc is at: .kiro/specs/[name]/design.md
+Design doc is at: .fade/specs/[name]/design.md
 ```
 
 ---
@@ -137,7 +137,7 @@ The LLM will match your patterns in the generated specs.
 
 If you already have specs for other features, point to them:
 
-> Follow the same format as .kiro/specs/auth/requirements.md
+> Follow the same format as .fade/specs/auth/requirements.md
 
 This gives the LLM a concrete example of your preferred style.
 
@@ -173,7 +173,7 @@ This becomes the foundation for user stories and acceptance criteria.
 
 After the first spec generation:
 
-> Refine spec .kiro/specs/notifications/: Add rate limiting to prevent
+> Refine spec .fade/specs/notifications/: Add rate limiting to prevent
 > notification spam — max 10 per user per minute. Also add a "mute"
 > feature per channel.
 
