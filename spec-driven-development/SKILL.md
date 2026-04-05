@@ -1,9 +1,22 @@
 ---
 name: spec-driven-development
+author: Bowofade Oyerinde (@oyenet1) — Bonifade Technologies
 description: "Specification-Driven Development (SDD) workflow — takes any vague requirement or feature idea and transforms it into structured, implementation-ready specs. Use when the user says 'spec this', 'create requirements', 'write a spec', 'plan this feature', 'SDD', 'spec driven', 'specification', 'requirements doc', 'design doc', 'task list', 'break this down', 'plan this', 'refine this idea', 'turn this into tasks', or when they describe a feature they want to build. Also use when working with .fade/specs directories or any specification workflow. Even if the user just says 'I want to build X' — use this skill to capture and structure their intent before coding."
 ---
 
+<!--
+  ──────────────────────────────────────────────────────────────────
+  🏢 Company Name: Bonifade Technologies
+  👨‍💻 Developer: Bowofade Oyerinde
+  🐙 GitHub: oyenet1
+  📅 Created Date: 2026-04-05
+  🔄 Updated Date: 2026-04-05
+  ──────────────────────────────────────────────────────────────────
+-->
+
 # Spec-Driven Development (SDD)
+
+> Created by **Bowofade Oyerinde** ([@oyenet1](https://github.com/oyenet1)) — **Bonifade Technologies**
 
 Specifications are the source of truth. Code serves specifications — not the other way around.
 

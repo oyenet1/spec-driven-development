@@ -1,6 +1,16 @@
+<!--
+  ──────────────────────────────────────────────────────────────────
+  🏢 Company Name: Bonifade Technologies
+  👨‍💻 Developer: Bowofade Oyerinde
+  🐙 GitHub: oyenet1
+  📅 Created Date: 2026-04-05
+  🔄 Updated Date: 2026-04-05
+  ──────────────────────────────────────────────────────────────────
+-->
+
 # Agent Skills
 
-A collection of reusable AI agent skills by [Bowofade Oyerinde](https://github.com/oyenet1) / Bonifade Technologies.
+A collection of reusable AI agent skills by [Bowofade Oyerinde](https://github.com/oyenet1) / **Bonifade Technologies**.
 
 ## Available Skills
 
