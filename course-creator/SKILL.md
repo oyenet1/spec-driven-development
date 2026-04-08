@@ -625,14 +625,18 @@ PDF formatting requirements:
 - Cover page with course title, course type, framework stack, generation date
 - Table of contents with page numbers
 - Chapter PDF first page includes chapter number, chapter title, chapter summary
-- Code blocks use monospaced font
-- Code blocks use shaded or syntax-highlighted background
+- Body font: **Inter** or **Source Sans Pro** — size 11pt
+- Heading font: **Inter** or **Source Sans Pro** — bold, sized proportionally (h1: 20pt, h2: 16pt, h3: 13pt)
+- Monospace font (code blocks): **JetBrains Mono** or **Fira Code** — size 10pt
+- Code blocks use a light shaded background (`#F4F4F5` or equivalent)
 - Code blocks include language labels
-- Preserve indentation and line breaks exactly
+- Line height: 1.6 for body text, 1.4 for code blocks
+- Preserve indentation and line breaks exactly in all code blocks
 
 If PDF generation is unavailable:
 - Output fully structured markdown with the same sections
 - Notify user with conversion suggestion using pandoc or equivalent
+- Suggest pandoc flags: `--pdf-engine=xelatex -V mainfont="Inter" -V monofont="JetBrains Mono" -V fontsize=11pt`
 
 ## Project Prompt Pack
 
