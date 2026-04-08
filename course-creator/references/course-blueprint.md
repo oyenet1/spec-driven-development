@@ -274,4 +274,4 @@ Group entries under letter headings (A, B, C, ...). Include all: HTTP verbs, sta
 - Each chapter PDF is compiled from: `00-overview.md` + lesson files (in order) + `exercises.md` + `assignments.md`
 - Full-course PDF is compiled from all chapter PDFs in chapter order
 - All frontmatter blocks and file-level header comments are stripped before PDF rendering — no dates, file paths, author credits, or metadata keys appear in the PDF
-- PDF page headers are blank; page footers show page number only (centered), no file name, no date, no URL
+- PDF page headers are blank; page footers appear on every page with three elements: left — clickable link to `https://school.bonifadetechnologies.com`, center — page number, right — clickable mailto `biz@bowofade.com`; footer font 8pt muted gray, links must be real hyperlinks (clickable in PDF)

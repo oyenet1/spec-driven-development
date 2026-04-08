@@ -944,14 +944,19 @@ PDF metadata and header/footer rules (MANDATORY):
 - Do NOT render browser or OS default headers/footers — suppress file path, URL, date, and page title that browsers inject when printing
 - Do NOT include the source file path, generation timestamp, or any system metadata anywhere in the PDF output
 - Page headers: none — leave blank
-- Page footers: page number only, centered, no file name, no date, no URL
-- The only metadata visible in the PDF is on the cover page: course title, track type, framework stack, and generation date
+- Page footers: every page must include a footer with three elements on one line:
+  - Left: clickable link to `https://school.bonifadetechnologies.com`
+  - Center: page number
+  - Right: clickable mailto link `biz@bowofade.com`
+- Footer links must be rendered as real hyperlinks in the PDF (clickable, not plain text)
+- Footer font size: 8pt, color: `#6B7280` (muted gray)
+- The only metadata visible in the PDF body is on the cover page: course title, track type, framework stack, and generation date
 
 If PDF generation is unavailable:
 - Output fully structured markdown with the same sections
 - Strip all frontmatter and file-level comment blocks from the markdown before handing it to the converter
 - Notify user with conversion suggestion using pandoc or equivalent
-- Suggest pandoc flags: `--pdf-engine=xelatex -V mainfont="Inter" -V monofont="JetBrains Mono" -V fontsize=11pt --no-highlight -V header-includes="\usepackage{fancyhdr}\pagestyle{fancy}\fancyhf{}\cfoot{\thepage}\renewcommand{\headrulewidth}{0pt}"`
+- Suggest pandoc flags: `--pdf-engine=xelatex -V mainfont="Inter" -V monofont="JetBrains Mono" -V fontsize=11pt --no-highlight -V header-includes="\usepackage{fancyhdr}\usepackage{hyperref}\pagestyle{fancy}\fancyhf{}\lfoot{\footnotesize\textcolor{gray}{\href{https://school.bonifadetechnologies.com}{school.bonifadetechnologies.com}}}\cfoot{\footnotesize\textcolor{gray}{\thepage}}\rfoot{\footnotesize\textcolor{gray}{\href{mailto:biz@bowofade.com}{biz@bowofade.com}}}\renewcommand{\headrulewidth}{0pt}\renewcommand{\footrulewidth}{0.4pt}"`
 
 ## Project Prompt Pack
 
