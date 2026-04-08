@@ -71,36 +71,102 @@ Framework-to-language resolution table:
 
 If the user gives partial details, continue with targeted follow-up questions only.
 
-## Roadmap Fetcher
+## Chapter and Lesson Structure (MANDATORY)
 
-Source roadmap topics from `https://roadmap.sh/{topic-slug}`.
+Every chapter MUST contain a fully expanded list of lessons. Lessons are not optional or implied — they must be explicitly listed and written out under their parent chapter at all times.
 
-When roadmap data is available:
-- Parse major topics and prerequisite relationships.
-- Preserve roadmap topic coverage in the chapter plan.
+### Chapter structure
 
-When roadmap data is unavailable or unparseable:
-- Set source mode to fallback.
-- Notify user with this format:
-  - `Roadmap source unavailable for {topic}. Continuing with official docs + w3schools. Canonical roadmap URL: https://roadmap.sh/{topic-slug}`
-- Continue with official docs structure and w3schools supplementation.
+```
+Chapter N: {Chapter Title}
+  Objective: {what the learner will be able to do after this chapter}
+  Prerequisites: {chapters or concepts required before this one}
+  Duration: {hours}
+  Total Lessons: {N lessons}
+  Source references: {roadmap.sh URL} | {official docs URL} | {w3schools URL if applicable}
 
-## Content Source References
+  Lesson N.1: {Lesson Title}
+  Lesson N.2: {Lesson Title}
+  Lesson N.3: {Lesson Title}
+  ...
+```
 
-For every curriculum, ground the sequence in:
-1. roadmap.sh topics for the selected track
-2. Official docs for the selected framework(s)
-3. Supplementary fundamentals from w3schools.com when beginner explanations are needed
+Rules:
+- Every chapter must have a minimum of 3 lessons
+- Lessons must be listed explicitly — never use "..." or "etc." as a substitute
+- Each lesson title must clearly describe what is taught in that lesson
+- Lessons must follow dependency order within the chapter (foundational lessons before applied ones)
+- Every lesson must appear under its chapter in both the outline and the detailed content sections
 
-When local files exist, use them as additional structural guidance:
-- `backend.pdf`
-- `frontend.pdf`
-- `devops.pdf`
+### Lesson structure (detailed content)
 
-Treat these as roadmap mirrors/checklists, not as the only source of truth.
+When expanding a chapter into full content, every lesson must include:
 
-If any source is unreachable at generation time, include this inline note:
-- `[Source unavailable at generation time. Use canonical URL: {url}]`
+```
+Lesson N.X: {Lesson Title}
+  Source: {direct URL to the relevant page on roadmap.sh, official docs, or w3schools}
+
+  1. Terms and Terminology
+     - {term}: {plain-language definition}
+
+  2. Why / What / When / Where
+     - Why: {why this concept exists}
+     - What: {what it is}
+     - When: {when to use it}
+     - Where: {where it applies in real projects}
+
+  3. Real-life example (explain like the learner is 10 years old)
+
+  4. Code example (where applicable)
+
+  5. References
+     - Primary: {official docs URL for this specific topic}
+     - Tutorial: {w3schools URL for this topic, if available}
+     - Roadmap: {roadmap.sh URL for this topic, if available}
+
+  6. Mini challenge / practice prompt
+```
+
+## Live Source Fetching (MANDATORY)
+
+Before generating any chapter or lesson content, ALWAYS fetch and read the relevant pages from these three sources. Do not rely on training data alone — go to the live sources.
+
+### Source priority order
+
+1. roadmap.sh — for topic coverage, prerequisite relationships, and learning path structure
+   - URL pattern: `https://roadmap.sh/{track}` (for example `https://roadmap.sh/frontend`, `https://roadmap.sh/backend`, `https://roadmap.sh/nodejs`)
+   - Fetch the roadmap page for the selected track before building the chapter outline
+   - Use the roadmap topics as the canonical checklist of what to cover
+
+2. Official language and framework docs — for accurate syntax, API references, and best practices
+   - Always fetch the official docs page for the specific topic being taught
+   - Examples:
+     - TypeScript: `https://www.typescriptlang.org/docs/`
+     - Node.js: `https://nodejs.org/en/docs/`
+     - React: `https://react.dev/`
+     - Vue: `https://vuejs.org/guide/`
+     - Nuxt: `https://nuxt.com/docs/`
+     - Next.js: `https://nextjs.org/docs/`
+     - Laravel: `https://laravel.com/docs/`
+     - Go: `https://go.dev/doc/`
+     - Rust: `https://doc.rust-lang.org/book/`
+     - Drizzle ORM: `https://orm.drizzle.team/docs/overview`
+     - Hono: `https://hono.dev/docs/`
+   - If the framework has a dedicated docs page for the specific concept (for example routing, middleware, authentication), fetch that specific page
+
+3. w3schools — for beginner-friendly tutorials and supplementary explanations
+   - URL pattern: `https://www.w3schools.com/{topic}/` (for example `https://www.w3schools.com/html/`, `https://www.w3schools.com/js/`, `https://www.w3schools.com/sql/`)
+   - Use w3schools for foundational topics: HTML, CSS, JavaScript, SQL, HTTP, Git basics
+   - Always include the w3schools link as a `Tutorial` reference in the lesson References section when a relevant page exists
+
+### Fetching rules
+
+- Fetch roadmap.sh for the track ONCE at the start of outline generation
+- Fetch official docs for each topic as you write that lesson
+- Fetch w3schools for each foundational topic as you write that lesson
+- If a fetch fails, include this inline note and continue: `[Source unavailable at generation time. Canonical URL: {url}]`
+- Never fabricate URLs — only include URLs you have confirmed exist or that follow the known URL patterns above
+- Always include the fetched source URL in the lesson's `References` section
 
 ## Dependency Ordering
 
@@ -171,7 +237,10 @@ Lesson requirements for every lesson:
 - `Why / What / When / Where`
 - At least one real-life example understandable by a 10-year-old
 - At least one code example where relevant
-- References: official docs first, w3schools when applicable
+- `References` section with: official docs URL, w3schools URL (if applicable), roadmap.sh URL (if applicable)
+- A `Source:` line at the top of every lesson pointing to the live page used to write it
+
+Every lesson MUST be written under its parent chapter. Never list a chapter without its lessons expanded beneath it.
 
 Exercise requirements per chapter:
 - Minimum 3 exercises
@@ -186,22 +255,266 @@ Assignment requirements per chapter:
 Produce output in two phases:
 
 1. Course Content Summary
-   - Chapter list with objective, duration, prerequisites, and outcomes
+   - Chapter list with objective, duration, prerequisites, outcomes, and full lesson list under each chapter
 
 2. Page-by-Page Main Content
    - Expand each chapter into lesson pages
    - Use plain language that a 10-year-old can follow
    - Include real-life examples and analogies
+   - Include source URL at the top of every lesson
 
 Use this exact hierarchy:
 - Chapter
-- Lesson
-- Page
-- Practice
+  - Lesson (MUST be listed and expanded under every chapter)
+    - Page
+    - Practice
 
 Add a chapter-end review checkpoint for every chapter.
 
 Assignments should progress from guided to independent.
+
+## Why / What / When / Where — Universal Concept Framework (MANDATORY)
+
+Every concept taught in this course — regardless of chapter, track, or topic — MUST be explained using the Why / What / When / Where framework. This is not optional. No concept may be introduced without all four dimensions answered.
+
+### Framework definition
+
+- **Why** — Why does this concept exist? What problem does it solve? What would go wrong without it?
+- **What** — What is it, in plain language? Define it as if explaining to someone with no technical background.
+- **When** — When do you use it? What situation or condition triggers its use?
+- **Where** — Where does it live in a real project? Which layer, file, service, or part of the system uses it?
+
+### Application rule
+
+Apply this framework to:
+- Every term in the `Terms and Terminology` section of every lesson
+- Every system design concept (caching, CDN, load balancing, queues, etc.)
+- Every DSA concept (arrays, hash maps, binary search, etc.)
+- Every architecture pattern (monolith, microservices, event-driven, etc.)
+- Every DevOps concept (Docker, CI/CD, Kubernetes, etc.)
+- Every database concept (indexing, normalization, transactions, etc.)
+- Every API concept (REST, versioning, rate limiting, etc.)
+
+### Format
+
+Use this exact format inline within every lesson:
+
+```
+Why: {1-2 sentences — the problem this solves or the reason it exists}
+What: {1-2 sentences — plain-language definition}
+When: {1-2 sentences — the condition or scenario where you reach for this}
+Where: {1-2 sentences — where in a real codebase or system this lives}
+```
+
+### Example — Caching
+
+```
+Why: Every time a user requests the same data, hitting the database adds latency and load. Caching stores the result so the next request is served instantly without touching the database.
+What: A cache is a temporary storage layer that holds frequently accessed data in fast memory (like RAM) so it can be returned quickly.
+When: Use caching when the same data is read far more often than it changes — for example, a product listing page, a user profile, or a leaderboard.
+Where: In a backend API, caching sits between the controller/service layer and the database. Tools like Redis are used as the cache store.
+```
+
+### Example — Array (DSA)
+
+```
+Why: Programs need to store and process multiple values of the same type together. Without arrays, you would need a separate variable for every item.
+What: An array is an ordered collection of items stored at contiguous memory locations, accessible by index.
+When: Use an array when you know the number of items in advance, need fast index-based access, or need to iterate over a list in order.
+Where: Arrays appear everywhere — a list of users returned from a database query, a set of form validation errors, a queue of tasks to process.
+```
+
+## System Design Module (MANDATORY for backend and fullstack)
+
+The System Design module is a dedicated chapter that must appear after Database Design and before framework implementation chapters.
+
+### Teaching approach — problem-first
+
+Every system design concept MUST be introduced through a real-world problem scenario before the solution is explained. Do not introduce the technology first. Always start with the problem.
+
+Use this problem-first pattern for every concept:
+
+```
+Problem: {describe a realistic situation where a site or system is struggling}
+Symptom: {what the user or developer observes — slow page, timeout, crash, etc.}
+Root cause: {why it is happening at a technical level}
+Solution: {the system design concept that solves it}
+How it works: {plain explanation of the solution}
+Why / What / When / Where: {apply the full framework}
+Mermaid diagram: {show the before/after architecture or the flow}
+```
+
+### Required system design topics
+
+Every backend and fullstack course MUST cover all of the following. Each topic must use the problem-first pattern above and the Why/What/When/Where framework.
+
+1. Scalability and the slow site problem
+   - Problem: "Your site was fast with 10 users. Now you have 10,000 and pages take 8 seconds to load. What do you do?"
+   - Cover: vertical scaling vs horizontal scaling, stateless servers, load balancers
+   - Mermaid: show a load balancer distributing traffic across multiple server instances
+
+2. Caching with Redis
+   - Problem: "Your product listing page hits the database on every request. At peak traffic, the DB is overwhelmed and queries take 3 seconds."
+   - Cover: what a cache is, cache hit vs cache miss, TTL (time to live), cache invalidation strategies
+   - Tool: Redis — why Redis, how it works as an in-memory key-value store
+   - Why/What/When/Where for: cache, Redis, TTL, cache invalidation
+   - Mermaid: show request flow with and without cache (before/after)
+   - Code example: set and get a cached value using Redis in TypeScript
+
+3. CDN (Content Delivery Network)
+   - Problem: "Your users in Lagos are downloading images stored on a server in London. Every image takes 4 seconds to load."
+   - Cover: what a CDN is, edge nodes, origin server vs edge cache, cache-control headers
+   - Why/What/When/Where for: CDN, edge node, origin server, cache-control
+   - Mermaid: show a user in Africa hitting a nearby CDN edge node instead of a distant origin server
+   - Real examples: Cloudflare, AWS CloudFront, Vercel Edge Network
+
+4. Database indexing and slow queries
+   - Problem: "Your users table has 2 million rows. Searching by email takes 4 seconds because the database scans every row."
+   - Cover: what an index is, B-tree index, when to index, over-indexing risks
+   - Why/What/When/Where for: index, B-tree, full table scan, query planner
+   - Mermaid: show indexed vs non-indexed query path
+
+5. Message queues and background jobs
+   - Problem: "When a user registers, your API sends a welcome email synchronously. If the email service is slow, the user waits 6 seconds for the registration response."
+   - Cover: synchronous vs asynchronous processing, what a queue is, producers and consumers, job retries
+   - Tools: introduce concept with BullMQ or similar
+   - Why/What/When/Where for: queue, producer, consumer, background job, retry
+   - Mermaid: show API → queue → worker → email service flow
+
+6. Rate limiting
+   - Problem: "A bot is hitting your login endpoint 10,000 times per minute, slowing down real users and attempting brute-force attacks."
+   - Cover: what rate limiting is, token bucket algorithm (conceptual), sliding window, per-IP vs per-user limits
+   - Why/What/When/Where for: rate limiting, token bucket, sliding window
+   - Mermaid: show request flow with rate limiter middleware
+
+7. Load balancing
+   - Problem: "One server is handling all traffic. When it crashes, the entire site goes down."
+   - Cover: what a load balancer does, round-robin, least connections, health checks, sticky sessions
+   - Why/What/When/Where for: load balancer, round-robin, health check, sticky session
+   - Mermaid: show load balancer distributing requests across server pool
+
+8. Database replication and read replicas
+   - Problem: "Your single database is handling both writes and thousands of read queries. Reads are slowing down writes."
+   - Cover: primary/replica replication, read replicas, eventual consistency, replication lag
+   - Why/What/When/Where for: replication, read replica, eventual consistency, replication lag
+   - Mermaid: show primary DB receiving writes, replicas serving reads
+
+9. API design and versioning
+   - Problem: "You changed your API response format and broke every mobile app that was already in production."
+   - Cover: why versioning exists, URL versioning (`/api/v1/`), backward compatibility, deprecation strategy
+   - Why/What/When/Where for: API versioning, backward compatibility, deprecation
+
+10. Monolith vs microservices
+    - Problem: "Your monolith is so large that deploying a small bug fix requires redeploying the entire application and risks breaking unrelated features."
+    - Cover: monolith pros/cons, microservices pros/cons, when to split, service communication (REST, events)
+    - Why/What/When/Where for: monolith, microservices, service boundary, inter-service communication
+    - Mermaid: show monolith architecture vs microservices architecture side by side
+
+### System design chapter structure
+
+```
+Chapter: System Design Fundamentals
+  Lesson 1: Why Systems Slow Down — Diagnosing Performance Problems
+  Lesson 2: Scaling — Vertical vs Horizontal
+  Lesson 3: Caching with Redis
+  Lesson 4: CDN — Serving Assets Fast Globally
+  Lesson 5: Database Indexing and Query Optimization
+  Lesson 6: Message Queues and Background Jobs
+  Lesson 7: Rate Limiting
+  Lesson 8: Load Balancing
+  Lesson 9: Database Replication and Read Replicas
+  Lesson 10: API Design and Versioning
+  Lesson 11: Monolith vs Microservices — When to Split
+```
+
+Every lesson in this chapter must follow the problem-first pattern and include a Mermaid diagram.
+
+## DSA Module (Data Structures and Algorithms — Intro Level)
+
+Include a lightweight DSA chapter in every backend and fullstack course. For frontend courses, include it as an optional advanced section.
+
+### Teaching approach — real-life scenario first
+
+Every DSA concept must be introduced with a real-life scenario that a non-programmer can relate to. Then map it to the technical concept. Then show a code example.
+
+Use this pattern for every DSA topic:
+
+```
+Real-life scenario: {everyday analogy}
+Technical concept: {what data structure or algorithm this maps to}
+Why / What / When / Where: {apply the full framework}
+Code example: {TypeScript implementation with comments}
+Real project use case: {where this appears in actual backend/frontend code}
+```
+
+### Required DSA topics (intro level)
+
+1. Arrays and iteration
+   - Real-life: a numbered list of items on a shopping receipt
+   - Use case: list of users returned from a DB query, iterating over form fields
+   - Code: array creation, indexing, `.map()`, `.filter()`, `.find()`
+
+2. Hash maps / objects / dictionaries
+   - Real-life: a phone book — you look up a name and instantly get the number
+   - Use case: caching a user session by ID, grouping items by category, deduplication
+   - Code: TypeScript `Map` and object literal, O(1) lookup explanation
+
+3. Stacks
+   - Real-life: a stack of plates — you always take from the top
+   - Use case: browser history (back button), undo/redo, call stack in JavaScript
+   - Code: stack using an array with `.push()` and `.pop()`
+
+4. Queues
+   - Real-life: a queue at a bank — first person in is first person served
+   - Use case: job queues, message queues, request processing order
+   - Code: queue using an array with `.push()` and `.shift()`
+
+5. Binary search
+   - Real-life: finding a word in a dictionary — you open the middle, decide left or right, repeat
+   - Use case: searching a sorted list of products by price, finding a record in a sorted index
+   - Code: TypeScript binary search implementation with step-by-step comments
+   - Complexity: explain O(log n) vs O(n) with a simple numbers example
+
+6. Sorting (conceptual + one implementation)
+   - Real-life: sorting a hand of playing cards
+   - Use case: sorting search results by relevance, sorting products by price
+   - Cover: bubble sort (conceptual only, to understand the idea), then built-in `.sort()` for practical use
+   - Explain: why built-in sort is preferred in production, when custom comparators are needed
+
+7. Big O notation (practical, not academic)
+   - Real-life: "If you have 1 million users, does your code still run in 1 second or does it take 3 hours?"
+   - Cover: O(1), O(n), O(n²), O(log n) — explained with everyday counting examples
+   - Do NOT go into proofs or academic notation — keep it practical
+   - Example: show a nested loop over a user list and explain why it becomes slow at scale
+
+8. Search as a worked example
+   - Build a simple in-memory search function that filters a list of products by name
+   - Show naive O(n) string search first
+   - Then show how an index (hash map) makes repeated lookups O(1)
+   - Relate back to how database indexes work (connecting DSA to system design)
+
+9. Normal calculation patterns (practical math in code)
+   - Percentage: `(part / total) * 100` — use case: discount calculation, progress bar
+   - Average: `sum / count` — use case: average rating, average response time
+   - Pagination offset: `(page - 1) * limit` — use case: database query pagination
+   - Growth rate: `((new - old) / old) * 100` — use case: analytics dashboard
+   - Show each as a TypeScript utility function with a real project context
+
+### DSA chapter structure
+
+```
+Chapter: Data Structures, Algorithms, and Practical Math
+  Lesson 1: Arrays — Lists of Things
+  Lesson 2: Hash Maps — Instant Lookups
+  Lesson 3: Stacks and Queues — Order Matters
+  Lesson 4: Binary Search — Smarter Searching
+  Lesson 5: Sorting — Putting Things in Order
+  Lesson 6: Big O — How Fast Is Your Code?
+  Lesson 7: Search in Practice — Building a Product Search
+  Lesson 8: Practical Math in Code — Percentages, Averages, Pagination
+```
+
+Every lesson must include a real-life scenario, Why/What/When/Where, a TypeScript code example, and a real project use case.
 
 ## Module Definitions
 
@@ -209,24 +522,31 @@ UML Module (backend and fullstack only):
 - Must be chapter 1 or 2
 - Must cover Data Flow Diagram, Use Case Diagram, ERD
 - Must include definitions, examples, and practice
+- Every diagram type must use Why/What/When/Where before the diagram is shown
 
 Database Design Module (backend and fullstack only):
 - Must come before ORM/query implementation
 - Must cover normalization, schema design, indexing, relationships
+- Every concept must use Why/What/When/Where
 
 System Design Module (backend and fullstack only):
-- Must cover architecture patterns, scalability, and API design principles
+- See `System Design Module` section above for full required topic list and problem-first teaching pattern
+- Must appear after Database Design and before framework implementation chapters
+
+DSA Module:
+- See `DSA Module` section above for full required topic list and real-life-first teaching pattern
+- Backend/fullstack: required chapter
+- Frontend: optional advanced section
 
 DevOps Module (all course types):
 - Must appear after framework chapters and before projects
 - Must include HTTP, HTTPS, DNS, domain, hosting, Git, CI/CD, Docker, Kubernetes, Vercel, FTP/SFTP, package managers, ORM concepts
 - Must include at least 2 deployment strategies with step-by-step guidance
+- Every concept must use Why/What/When/Where
 
 AI Dev Overlay:
 - If `aiDrivenDev = yes`, add AI guidance in every chapter and at least one AI-specific exercise per chapter
 - If `aiDrivenDev = no`, exclude AI references from chapter content
-
-## Project Generator
 
 At the end of course planning, include project set based on track:
 - Fullstack: at least 7 projects
@@ -337,6 +657,92 @@ If PDF generation is unavailable:
 - Output fully structured markdown with the same sections
 - Notify user with conversion suggestion using pandoc or equivalent
 
+## Project Prompt Pack
+
+At the end of every course, after the Project Portfolio section, generate a full `Project Prompt Pack` for every project in the course.
+
+The Project Prompt Pack is a complete set of AI prompts that a learner can use to build each project feature by feature using an AI coding assistant.
+
+### Structure per project
+
+For each project, produce:
+
+1. Project overview prompt — a single prompt that gives the AI full context about the project (name, goal, stack, architecture, features list)
+2. Feature-by-feature prompts — one dedicated prompt per feature, written so the learner can paste it directly into an AI assistant and get working code
+
+### Feature prompt rules
+
+- Each feature prompt must be self-contained and include enough context to work without prior conversation history
+- Each prompt must specify: the project name, the feature being built, the tech stack, the expected input/output, and any relevant constraints (for example auth required, use Drizzle ORM, follow modular monolith pattern)
+- Prompts must follow the project's coding standards (TypeScript, bun, Drizzle ORM, versioned API routes, snake_case DB columns, camelCase frontend fields, file header comment)
+- Prompts must be ordered in dependency sequence (for example: schema before service, service before controller, controller before route)
+- Each prompt must end with a validation instruction telling the AI what to verify before finishing
+
+### Feature prompt format
+
+Use this exact format for every feature prompt:
+
+```
+Project: {project name}
+Feature: {feature name}
+Stack: {language, framework, ORM, database}
+Context: {1-2 sentences describing what this feature does and why it exists in the project}
+Task: {precise instruction of what to build}
+Requirements:
+  - {requirement 1}
+  - {requirement 2}
+  - ...
+Constraints:
+  - Follow modular monolith structure (routes / controllers / services / schemas)
+  - Use snake_case for all DB columns
+  - Return camelCase fields in API responses
+  - Version all routes under /api/v1/
+  - Include file header comment
+  - {any feature-specific constraints}
+Validation: Before finishing, confirm that {specific thing to verify — for example "the route returns a 422 with field-level errors on invalid input" or "the WebSocket emits the correct event on connection"}.
+```
+
+### Output placement
+
+The Project Prompt Pack appears as a dedicated section after `Project Portfolio` and before `Tools and Deployment Plan` in the final output.
+
+## Course Index
+
+At the very end of every course output, generate a full `Course Index` — an alphabetically sorted reference of every term, concept, technology, and topic covered in the course.
+
+### Index rules
+
+- Include every named concept, term, technology, tool, pattern, and acronym introduced anywhere in the course
+- Sort entries alphabetically (A–Z)
+- Each entry must include:
+  - The term or concept name
+  - A one-line plain-language definition
+  - The chapter and lesson where it is first introduced (for example `Ch.3 → Lesson 2`)
+- Group entries under alphabetical letter headings (A, B, C, ...)
+- If a term appears in multiple chapters, reference only the first occurrence
+- Include all: HTTP verbs, status codes taught, design patterns, ORM methods, CLI commands, architecture terms, framework-specific concepts, and project-specific terms
+
+### Index format example
+
+```
+## Course Index
+
+### A
+- **API (Application Programming Interface)** — A set of rules that allows programs to talk to each other. Ch.2 → Lesson 1
+- **Authentication** — The process of verifying who a user is. Ch.5 → Lesson 3
+- **Authorization** — The process of verifying what a user is allowed to do. Ch.5 → Lesson 4
+
+### B
+- **Bun** — A fast JavaScript runtime and package manager used throughout this course. Ch.1 → Lesson 2
+
+### C
+- **CI/CD** — Continuous Integration and Continuous Deployment; automated pipelines for testing and releasing code. Ch.10 → Lesson 1
+```
+
+### Output placement
+
+The Course Index is always the last section of the full course output, after `Learning Milestones by Week`.
+
 ## Output Format
 
 ALWAYS return the final result in this order:
@@ -345,14 +751,119 @@ ALWAYS return the final result in this order:
 3. `Detailed Pages by Chapter`
 4. `Exercises and Assignments`
 5. `Project Portfolio`
-6. `Tools and Deployment Plan`
-7. `Learning Milestones by Week`
+6. `Project Prompt Pack`
+7. `Tools and Deployment Plan`
+8. `Learning Milestones by Week`
+9. `Course Index`
 
 Also include:
 - Total estimated hours
 - Weekly hour breakdown
 - Required prerequisites
 - Optional advanced path
+
+## Concept Illustration (Image Generation)
+
+Generate images only for concepts that are genuinely hard to grasp through text alone. Do not illustrate every concept — be selective and purposeful.
+
+### When to generate an image
+
+Generate an illustration when the concept falls into one of these categories:
+- Architecture or system diagrams (for example client-server flow, microservices layout, request lifecycle)
+- Data flow or process flow (for example how HTTP request/response works, CI/CD pipeline stages)
+- Database relationships (for example ERD diagrams, one-to-many vs many-to-many)
+- UML diagrams (for example use case, data flow, entity relationship)
+- Visual comparisons (for example stack vs heap, synchronous vs asynchronous)
+- Deployment topology (for example Docker containers, Kubernetes pods, CDN edge nodes)
+- Abstract concepts that benefit from spatial representation (for example event loop, call stack, DNS resolution)
+
+### When NOT to generate an image
+
+Do not generate images for:
+- Concepts that are already clear from a short text explanation
+- Simple definitions or terminology
+- Code examples (use code blocks instead)
+- Decorative or filler visuals
+
+### Mermaid Diagrams for All Architectural Drawings (MANDATORY)
+
+ALL architectural and structural diagrams MUST be rendered as Mermaid diagram blocks. This is not optional. Do not use plain text descriptions or ASCII art for architectural content.
+
+Mandatory Mermaid usage covers:
+- System architecture diagrams (client-server, microservices, monolith, layered architecture)
+- Request/response lifecycle flows
+- CI/CD pipeline stages
+- Docker and Kubernetes topology
+- Authentication and authorization flows
+- Data flow diagrams (DFD)
+- Use case diagrams
+- ERD (Entity Relationship Diagrams)
+- API versioning structure
+- Module/folder architecture overviews
+- Deployment topology
+
+Mermaid diagram type selection guide:
+- Flowcharts and process flows: `graph LR` or `graph TD`
+- Sequence diagrams (request/response, auth flows): `sequenceDiagram`
+- ERD: `erDiagram`
+- Class diagrams (OOP structure): `classDiagram`
+- State diagrams: `stateDiagram-v2`
+- Gantt charts (timelines, milestones): `gantt`
+- Pie charts (comparisons): `pie`
+
+Every Mermaid diagram must include:
+- A descriptive title comment at the top of the block
+- Labeled nodes and edges
+- A `Caption:` line immediately after the closing fence explaining what the learner should take away
+
+Example:
+
+````markdown
+```mermaid
+sequenceDiagram
+  participant Client
+  participant Server
+  participant Database
+  Client->>Server: HTTP POST /api/v1/login
+  Server->>Database: Query user by email
+  Database-->>Server: Return user record
+  Server-->>Client: 200 OK + JWT token
+```
+Caption: The login flow — the client sends credentials, the server validates against the database, and returns a signed JWT on success.
+````
+
+If a Mermaid diagram type does not exist for a specific concept, fall back to a clearly labeled ASCII diagram with a caption.
+
+### Image generation rules
+
+- Maximum of 1 image per lesson page
+- Maximum of 3 images per chapter
+- Every generated image must have a descriptive `alt` text and a caption explaining what the image shows
+- Images must be clean, minimal, and diagram-style — not decorative illustrations
+- Prefer black-and-white or low-color diagrams for clarity
+- Label all components in the diagram clearly
+- For all architectural drawings, always use Mermaid first (see above)
+
+### Image placement format
+
+Place images inline within lesson pages using this format:
+
+```
+[IMAGE: {brief description of what the diagram shows}]
+Alt text: {accessible description of the image content}
+Caption: {one sentence explaining what the learner should take away from this image}
+Fallback (if image unavailable):
+  - Mermaid diagram block (mandatory for architectural content)
+  - ASCII diagram only when no suitable Mermaid type exists
+```
+
+### Image generation prompt style
+
+When generating an image (non-architectural), use a clean technical diagram prompt:
+- Describe the components and their relationships
+- Specify a white or light background
+- Request labeled boxes, arrows, and minimal color
+- Example prompt: `"Clean technical diagram showing a client-server HTTP request-response cycle. White background, labeled boxes for Client and Server, arrow labeled 'Request' going right and arrow labeled 'Response' going left. Minimal flat design."`
 
 ## Quality Checklist (Self-Review Before Final Answer)
 
@@ -362,11 +873,26 @@ Before sending the course, verify:
 - Exercise and assignment minimums are satisfied
 - Project count matches track minimums
 - At least one realtime/WebSocket project exists
-- Backend/fullstack includes UML + ERD + DB design + system design
-- Docs grounding included (roadmap.sh + official docs + optional w3schools)
+- Backend/fullstack includes UML + ERD + DB design + system design + DSA chapters
+- Every concept in every lesson has Why/What/When/Where answered
+- System design chapter uses problem-first pattern for every topic (slow site → root cause → solution)
+- System design covers: caching/Redis, CDN, indexing, queues, rate limiting, load balancing, replication, API versioning, monolith vs microservices
+- DSA chapter covers: arrays, hash maps, stacks, queues, binary search, sorting, Big O, search example, practical math
+- roadmap.sh fetched for the selected track before outline was built
+- Official docs fetched for each topic as lessons were written
+- w3schools fetched and linked for all applicable foundational topics
+- Every lesson has a `Source:` URL and a `References` section
+- Every chapter has its lessons explicitly listed and expanded beneath it (no implied or skipped lessons)
 - DevOps module exists and is before projects
 - Assignment count is at least 5 per chapter
 - Project `primaryTechnology` values are unique within course
 - PDF naming and structure rules are satisfied (or fallback markdown produced)
+- Images are only placed where genuinely needed (max 3 per chapter)
+- Every image has alt text and a caption
+- ALL architectural drawings use Mermaid diagram blocks (not ASCII or plain text)
+- Every Mermaid diagram has a caption line
+- Project Prompt Pack is present with one overview prompt and feature-by-feature prompts for every project
+- All feature prompts are self-contained and ordered by dependency
+- Course Index is present as the last section, alphabetically sorted, with chapter/lesson references for every entry
 
 If any item fails, revise before responding.

@@ -51,7 +51,16 @@ Always include language essentials when framework requires it.
 1. Core internet terms (`HTTP`, `HTTPS`, `DNS`, `domain`, `hosting`)
 2. UML fundamentals (use case, DFD, ERD)
 3. Data modeling and database design
-4. System design fundamentals
+4. System design fundamentals — problem-first teaching, covers: caching/Redis, CDN, indexing, queues, rate limiting, load balancing, replication, API versioning, monolith vs microservices
+5. DSA intro — real-life-first teaching, covers: arrays, hash maps, stacks, queues, binary search, sorting, Big O, search example, practical math
+
+## Why / What / When / Where Rule
+
+Every concept across all modules must be explained with all four dimensions:
+- Why: the problem it solves
+- What: plain-language definition
+- When: the condition that triggers its use
+- Where: where it lives in a real codebase or system
 
 ## Docs Priority Order
 
