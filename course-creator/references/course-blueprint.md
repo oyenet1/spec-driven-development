@@ -36,14 +36,49 @@ Minimum 3 lessons per chapter. The `Total Lessons` count must always match the a
 
 ## 3) Detailed Pages by Chapter
 
-Each lesson must begin with a `Source:` line — the live URL used to write that lesson (roadmap.sh, official docs, or w3schools).
+Each chapter is a folder. Each lesson is a dedicated `.md` file inside that folder. Do not output course content as a single flat document.
 
-Each lesson should contain page blocks:
-- Page 1: concept in plain words — MUST include Why / What / When / Where for every concept introduced
-- Page 2: real-life analogy
-- Page 3: guided implementation
-- Page 4: common mistakes and fixes
-- Page 5: mini challenge
+### Folder structure
+
+```
+{course-slug}/
+  README.md                          ← course root: TOC linking all chapter overviews
+  index.md                           ← full course index (alphabetically sorted)
+  chapter-01-{slug}/
+    00-overview.md                   ← chapter summary, lesson list with links, next chapter link
+    01-{lesson-slug}.md
+    02-{lesson-slug}.md
+    ...
+    exercises.md
+    assignments.md
+  chapter-02-{slug}/
+    ...
+```
+
+### Lesson file structure
+
+Every lesson `.md` file must contain these 8 sections in order:
+
+1. Frontmatter (`lesson`, `title`, `chapter`, `prev`, `next`)
+2. Navigation bar at top: `Prev | Next` links
+3. `Source:` line — live URL used to write this lesson
+4. Terms and Terminology table
+5. Why / What / When / Where — MUST include all four dimensions for every concept introduced
+6. Real-Life Example — explain as if the learner is 10 years old
+7. Detailed Concept Explanation — full depth, subheadings, edge cases
+8. Code Example — with language label and inline comments
+9. Common Mistakes and Fixes table
+10. Mini Challenge — task + expected outcome
+11. References block — primary docs, w3schools (if applicable), roadmap.sh (if applicable)
+12. Navigation bar at bottom: `Prev | Next` links
+
+### Navigation rules
+
+- First lesson in a chapter: `prev` → `00-overview.md`
+- Last lesson in a chapter: `next` → `exercises.md`
+- `exercises.md`: `next` → `assignments.md`
+- `assignments.md`: `next` → next chapter `00-overview.md` (or `index.md` if last chapter)
+- No dead ends — every file must have both `prev` and `next`
 
 ### Why / What / When / Where (MANDATORY on every concept)
 
@@ -229,3 +264,14 @@ Group entries under letter headings (A, B, C, ...). Include all: HTTP verbs, sta
 - ALL architectural drawings use Mermaid blocks with captions
 - Project Prompt Pack present with overview + feature-by-feature prompts for every project
 - Course Index present as last section, alphabetically sorted, with chapter/lesson references
+- Folder structure is correct: each chapter is a folder (`chapter-{NN}-{slug}/`), each lesson is a `.md` file
+- Every chapter folder contains `00-overview.md`, all lesson files in numeric order, `exercises.md`, `assignments.md`
+- Every lesson file contains all 8 required sections in order
+- Every lesson file has valid `prev` and `next` navigation links — no dead ends
+- Navigation chain is unbroken from course README through every lesson to the course index
+- `README.md` at course root links to all chapter overviews
+- `index.md` at course root contains the full Course Index
+- Each chapter PDF is compiled from: `00-overview.md` + lesson files (in order) + `exercises.md` + `assignments.md`
+- Full-course PDF is compiled from all chapter PDFs in chapter order
+- All frontmatter blocks and file-level header comments are stripped before PDF rendering — no dates, file paths, author credits, or metadata keys appear in the PDF
+- PDF page headers are blank; page footers show page number only (centered), no file name, no date, no URL

@@ -680,20 +680,251 @@ In every course, include a `Terms and Why They Matter` section that covers:
 Must include core internet terms at minimum:
 `HTTP`, `HTTPS`, `DNS`, `domain`, `hosting`, `API`, `authentication`, `authorization`, `ORM`, `CI/CD`.
 
+## Folder and File Structure (MANDATORY)
+
+Every course MUST be generated as a structured folder tree. Do not output course content as a single flat document. Each chapter is a folder and each lesson is a dedicated markdown file inside that folder.
+
+### Folder structure
+
+```
+{course-slug}/
+  chapter-01-{chapter-slug}/
+    00-overview.md
+    01-{lesson-slug}.md
+    02-{lesson-slug}.md
+    03-{lesson-slug}.md
+    ...
+    exercises.md
+    assignments.md
+  chapter-02-{chapter-slug}/
+    00-overview.md
+    01-{lesson-slug}.md
+    ...
+    exercises.md
+    assignments.md
+  ...
+  index.md
+  README.md
+```
+
+### Slug rules
+
+- Use lowercase `kebab-case` for all folder and file names
+- Replace spaces and special characters with hyphens
+- Chapter folders: `chapter-{NN}-{chapter-slug}` (zero-padded two-digit number, for example `chapter-01-internet-fundamentals`)
+- Lesson files: `{NN}-{lesson-slug}.md` (zero-padded two-digit number, for example `01-what-is-http.md`)
+- Overview file: always `00-overview.md` — the first file in every chapter folder
+- Exercises file: always `exercises.md` — contains all chapter exercises
+- Assignments file: always `assignments.md` — contains all chapter assignments
+
+### File contents
+
+#### `{course-slug}/README.md`
+- Course title, track, stack, duration summary
+- Table of contents linking to every chapter overview file
+- Prerequisites and target learner profile
+
+#### `{course-slug}/index.md`
+- Full course index (alphabetically sorted, same as Course Index section)
+
+#### `chapter-{NN}-{slug}/00-overview.md`
+- Chapter number and title
+- Chapter objective
+- Prerequisites (chapters or concepts required before this one)
+- Duration estimate
+- Full lesson list with links to each lesson file in this chapter
+- Source references (roadmap.sh, official docs, w3schools)
+- Link to next chapter overview
+
+#### `chapter-{NN}-{slug}/{NN}-{lesson-slug}.md` (every lesson file)
+
+Every lesson file MUST contain all of the following sections in this exact order:
+
+```markdown
+---
+lesson: {N.X}
+title: {Lesson Title}
+chapter: {Chapter Title}
+prev: {relative path to previous lesson file or chapter overview}
+next: {relative path to next lesson file or exercises.md if last lesson}
+---
+
+# Lesson {N.X}: {Lesson Title}
+
+> **Chapter:** {Chapter Title} | **Prev:** [{prev title}]({prev path}) | **Next:** [{next title}]({next path})
+
+**Source:** {live URL used to write this lesson — roadmap.sh, official docs, or w3schools}
+
+---
+
+## 1. Terms and Terminology
+
+| Term | Definition |
+|------|------------|
+| {term} | {plain-language definition} |
+
+---
+
+## 2. Why / What / When / Where
+
+**Why:** {why this concept exists — the problem it solves}
+**What:** {plain-language definition}
+**When:** {when to use it — the condition or scenario}
+**Where:** {where it lives in a real project — layer, file, service}
+
+---
+
+## 3. Real-Life Example
+
+{Explain the concept as if the learner is 10 years old. Use an everyday analogy.}
+
+---
+
+## 4. Detailed Concept Explanation
+
+{Full explanation of the concept with depth. Cover edge cases, common patterns, and how it fits into the broader system. Use subheadings where needed.}
+
+---
+
+## 5. Code Example
+
+```{language}
+// {comment explaining what this code demonstrates}
+{code}
+```
+
+---
+
+## 6. Common Mistakes and Fixes
+
+| Mistake | Why it happens | Fix |
+|---------|---------------|-----|
+| {mistake} | {reason} | {solution} |
+
+---
+
+## 7. Mini Challenge
+
+**Task:** {specific practice prompt tied to this lesson's concept}
+**Expected outcome:** {what the learner should produce or be able to explain}
+
+---
+
+## 8. References
+
+- **Primary:** [{official docs title}]({official docs URL})
+- **Tutorial:** [{w3schools title}]({w3schools URL}) *(if applicable)*
+- **Roadmap:** [{roadmap.sh title}]({roadmap.sh URL}) *(if applicable)*
+
+---
+
+> **Prev:** [{prev title}]({prev path}) | **Next:** [{next title}]({next path})
+```
+
+Navigation rules:
+- The first lesson in a chapter: `prev` links to `00-overview.md` of the same chapter
+- The last lesson in a chapter: `next` links to `exercises.md` of the same chapter
+- `exercises.md`: `next` links to `assignments.md`
+- `assignments.md`: `next` links to `00-overview.md` of the next chapter (or `index.md` if it is the last chapter)
+- Every file must have both `prev` and `next` links — no dead ends
+
+#### `chapter-{NN}-{slug}/exercises.md`
+
+```markdown
+---
+title: Exercises — {Chapter Title}
+chapter: {Chapter Title}
+prev: {last lesson file in this chapter}
+next: assignments.md
+---
+
+# Exercises: {Chapter Title}
+
+> **Prev:** [{last lesson title}]({last lesson path}) | **Next:** [Assignments](assignments.md)
+
+## Exercise 1: {Title}
+**Objective:** {what this exercise targets}
+**Task:** {what the learner must do}
+**Expected outcome:** {what success looks like}
+
+## Exercise 2: {Title}
+...
+
+## Exercise 3: {Title}
+...
+
+> **Prev:** [{last lesson title}]({last lesson path}) | **Next:** [Assignments](assignments.md)
+```
+
+#### `chapter-{NN}-{slug}/assignments.md`
+
+```markdown
+---
+title: Assignments — {Chapter Title}
+chapter: {Chapter Title}
+prev: exercises.md
+next: {path to next chapter 00-overview.md}
+---
+
+# Assignments: {Chapter Title}
+
+> **Prev:** [Exercises](exercises.md) | **Next:** [{next chapter title}]({next chapter overview path})
+
+## Assignment 1: {Title}
+**Objective:** {multi-concept goal}
+**Task:** {what the learner must build or produce}
+**Expected outcome:** {what success looks like}
+**Grading rubric:**
+  - {criterion 1}
+  - {criterion 2}
+  - {criterion 3}
+
+## Assignment 2: {Title}
+...
+
+(minimum 5 assignments per chapter)
+
+> **Prev:** [Exercises](exercises.md) | **Next:** [{next chapter title}]({next chapter overview path})
+```
+
+### Generation order
+
+Generate files in this order:
+1. `README.md` (after outline is approved)
+2. For each chapter in order:
+   a. `chapter-{NN}-{slug}/00-overview.md`
+   b. Each lesson file in lesson order
+   c. `exercises.md`
+   d. `assignments.md`
+3. `index.md` (after all chapters are complete)
+
+Always announce the file path before writing each file, for example:
+```
+📄 Generating: chapter-01-internet-fundamentals/01-what-is-http.md
+```
+
 ## PDF Export
 
 After generating full course content:
-- Produce one PDF per chapter
-- Produce one full-course PDF
+- Produce one PDF per chapter — compiled from all lesson files, exercises, and assignments in that chapter folder, in order
+- Produce one full-course PDF — compiled from all chapter PDFs in chapter order
 
 Naming convention:
-- `{course-slug}-chapter-{N}.pdf`
+- `{course-slug}-chapter-{NN}.pdf` (for example `nodejs-backend-chapter-01.pdf`)
 - `{course-slug}-full-course.pdf`
+
+PDF compilation order per chapter:
+1. `00-overview.md`
+2. Each lesson file in numeric order (`01-...`, `02-...`, etc.)
+3. `exercises.md`
+4. `assignments.md`
 
 PDF formatting requirements:
 - Cover page with course title, course type, framework stack, generation date
-- Table of contents with page numbers
-- Chapter PDF first page includes chapter number, chapter title, chapter summary
+- Table of contents with page numbers linking to each lesson
+- Chapter PDF first page includes chapter number, chapter title, chapter summary, and lesson list
+- Each lesson begins on a new page within the chapter PDF
+- Navigation links (prev/next) are omitted from PDF output — they are for the markdown files only
 - Body font: **Inter** or **Source Sans Pro** — size 11pt
 - Heading font: **Inter** or **Source Sans Pro** — bold, sized proportionally (h1: 20pt, h2: 16pt, h3: 13pt)
 - Monospace font (code blocks): **JetBrains Mono** or **Fira Code** — size 10pt
@@ -707,10 +938,20 @@ PDF formatting requirements:
 - Table headers: left-aligned, bold, with a light shaded background (`#E8E8EA` or equivalent)
 - Table body cells: left-aligned
 
+PDF metadata and header/footer rules (MANDATORY):
+- Strip ALL frontmatter/YAML metadata blocks before rendering to PDF — do not print `lesson:`, `title:`, `chapter:`, `prev:`, `next:`, or any other frontmatter key-value pairs
+- Strip ALL file-level header comments before rendering — this includes any comment block at the top of a file containing dates, file paths, author names, company names, GitHub handles, or developer credits (for example `/** ... */`, `<!-- ... -->`, `# ---` comment blocks)
+- Do NOT render browser or OS default headers/footers — suppress file path, URL, date, and page title that browsers inject when printing
+- Do NOT include the source file path, generation timestamp, or any system metadata anywhere in the PDF output
+- Page headers: none — leave blank
+- Page footers: page number only, centered, no file name, no date, no URL
+- The only metadata visible in the PDF is on the cover page: course title, track type, framework stack, and generation date
+
 If PDF generation is unavailable:
 - Output fully structured markdown with the same sections
+- Strip all frontmatter and file-level comment blocks from the markdown before handing it to the converter
 - Notify user with conversion suggestion using pandoc or equivalent
-- Suggest pandoc flags: `--pdf-engine=xelatex -V mainfont="Inter" -V monofont="JetBrains Mono" -V fontsize=11pt`
+- Suggest pandoc flags: `--pdf-engine=xelatex -V mainfont="Inter" -V monofont="JetBrains Mono" -V fontsize=11pt --no-highlight -V header-includes="\usepackage{fancyhdr}\pagestyle{fancy}\fancyhf{}\cfoot{\thepage}\renewcommand{\headrulewidth}{0pt}"`
 
 ## Project Prompt Pack
 
@@ -941,7 +1182,14 @@ Before sending the course, verify:
 - DevOps module exists and is before projects
 - Assignment count is at least 5 per chapter
 - Project `primaryTechnology` values are unique within course
-- PDF naming and structure rules are satisfied (or fallback markdown produced)
+- Folder structure is correct: each chapter is a folder (`chapter-{NN}-{slug}/`), each lesson is a `.md` file (`{NN}-{lesson-slug}.md`)
+- Every chapter folder contains `00-overview.md`, all lesson files, `exercises.md`, and `assignments.md`
+- Every lesson file contains all 8 required sections: Terms, Why/What/When/Where, Real-Life Example, Detailed Explanation, Code Example, Common Mistakes, Mini Challenge, References
+- Every lesson file has valid `prev` and `next` navigation links — no dead ends
+- Navigation chain is complete: overview → lesson 1 → ... → last lesson → exercises → assignments → next chapter overview
+- `README.md` exists at course root with table of contents linking to all chapter overviews
+- `index.md` exists at course root with the full alphabetically sorted Course Index
+- PDF naming and structure rules are satisfied: one PDF per chapter (compiled from all lesson files in order), one full-course PDF
 - Images are only placed where genuinely needed (max 3 per chapter)
 - Every image has alt text and a caption
 - ALL architectural drawings use Mermaid diagram blocks (not ASCII or plain text)
