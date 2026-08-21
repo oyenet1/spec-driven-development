@@ -31,7 +31,7 @@ We took the most useful lessons from 12 top books and turned them into ready-to-
 Marketing Skills/
 ├── README.md                                       # 📖 This simple guide
 ├── EXECUTIVE_MARKETING_READING_NOTES.md            # 📚 Super simple book summaries of all 12 books
-├── MARKETING_POSTABLE_NUGGETS_BANK.md              # 📱 120+ Short, punchy posts ready for Twitter, LinkedIn, Instagram, WhatsApp
+├── MARKETING_POSTABLE_NUGGETS_BANK.md              # 📱 2,500+ Short, punchy posts ready for Twitter, LinkedIn, Instagram, WhatsApp
 ├── assets/                                         # 🎨 High-resolution diagrams & book illustrations
 │   ├── dan_lok_wealth_triangle.jpg                 # 📐 Dan Lok Wealth Triangle diagram
 │   ├── hormozi_value_equation.jpg                  # 💎 Alex Hormozi Value Equation diagram
