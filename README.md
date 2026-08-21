@@ -32,6 +32,11 @@ Marketing Skills/
 ├── README.md                                       # 📖 This simple guide
 ├── EXECUTIVE_MARKETING_READING_NOTES.md            # 📚 Super simple book summaries of all 12 books
 ├── MARKETING_POSTABLE_NUGGETS_BANK.md              # 📱 120+ Short, punchy posts ready for Twitter, LinkedIn, Instagram, WhatsApp
+├── assets/                                         # 🎨 High-resolution diagrams & book illustrations
+│   ├── dan_lok_wealth_triangle.jpg                 # 📐 Dan Lok Wealth Triangle diagram
+│   ├── hormozi_value_equation.jpg                  # 💎 Alex Hormozi Value Equation diagram
+│   ├── marketing_funnel_diagram.jpg                # 🚀 4-Stage direct response funnel diagram
+│   └── unlock-it/                                  # 📖 75+ Original book illustrations for Unlock It
 ├── .agents/
 │   └── skills/
 │       ├── marketing-mastery/                      # 🌟 The Master Skill

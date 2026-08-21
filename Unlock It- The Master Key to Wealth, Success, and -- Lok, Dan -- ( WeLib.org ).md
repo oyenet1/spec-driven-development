@@ -12,7 +12,7 @@ subject: General Fiction
 title: "Unlock It: The Master Key to Wealth, Success, and Significance"
 ---
 
-![](./00075.jpeg)
+![](./assets/unlock-it/00075.jpeg)
 
 []{#titlepage.xhtml}
 
@@ -48,7 +48,7 @@ from his unique leadership strategies."
 **[MATT MEAD]{.ffrgs}** *\| Chairman, Grayson Pierce Capital \| CEO,
 EpekData and BrandLync \| \@mattmead*
 
-![imgline.jpg](./00001.jpeg){.calibre4}
+![imgline.jpg](./assets/unlock-it/00001.jpeg){.calibre4}
 
 "Dan has been on a meteoric rise from one of Vancouver's most respected
 entrepreneurs to internationally recognized global educator. He has
@@ -59,7 +59,7 @@ a true impact on the world."
 
 **[DWAYNE J. CLARK]{.ffrgs}** *\| CEO, Áegis Living \| \@dwaynejclark*
 
-![imgline.jpg](./00001.jpeg){.calibre4}
+![imgline.jpg](./assets/unlock-it/00001.jpeg){.calibre4}
 
 []{#part0000.html#lpn_ii .calibre3}"If you've loved any of Dan's
 previous works, *Unlock It* takes everything to the next level! Dan has
@@ -77,7 +77,7 @@ If you only plan to read one book this year, make this it."
 Multi-Seven-Figure Business Owner and Facebook Ad Expert \|
 \@RudyMawerLife*
 
-![imgline.jpg](./00001.jpeg){.calibre4}
+![imgline.jpg](./assets/unlock-it/00001.jpeg){.calibre4}
 
 "In a world full of warm and fuzzy personalities evangelizing the
 narrative of everyone deserving a participation trophy in the battle for
@@ -94,7 +94,7 @@ profitable path to success, you've now got the manual."
 **[JONATHAN "JCRON" CRONSTEDT]{.ffrgs}** *\| President,*
 [*Kajabi.com*](http://Kajabi.com){.calibre3}
 
-![imgline.jpg](./00001.jpeg){.calibre4}
+![imgline.jpg](./assets/unlock-it/00001.jpeg){.calibre4}
 
 []{#part0000.html#lpn_iii .calibre3}"What I love about *Unlock It* is
 that Dan is able to speak to people at all stages of wealth and give
@@ -107,7 +107,7 @@ to move to their next wealth level---whatever it is!"
 
 **[ANNE YATCH]{.ffrgs}** *\| Cofounder, Plan Sight*
 
-![imgline.jpg](./00001.jpeg){.calibre4}
+![imgline.jpg](./assets/unlock-it/00001.jpeg){.calibre4}
 
 "Dan has taken his real-world experiences and condensed them into
 powerful, yet simple, lessons that allow people worldwide to achieve
@@ -117,7 +117,7 @@ black belt training to *your* personal success!"
 **[MICHAEL A. HALL]{.ffrgs}** *\| Business Owner and Executive Advisor
 to CEOs, Culture Index*
 
-![imgline.jpg](./00001.jpeg){.calibre4}
+![imgline.jpg](./assets/unlock-it/00001.jpeg){.calibre4}
 
 "When you are a successful entrepreneur, one of the hardest tasks is
 deciding what to optimize when all is going well. *Unlock It* flipped a
@@ -128,7 +128,7 @@ is hungry for more."
 **[TORBEN PLATZER]{.ffrgs}** *\| Founder and CEO, TPA Media \|
 \@torbenplatzer*
 
-![imgline.jpg](./00001.jpeg){.calibre4}
+![imgline.jpg](./assets/unlock-it/00001.jpeg){.calibre4}
 
 []{#part0000.html#lpn_iv .calibre3}"Dan Lok is an impressive
 entrepreneur. Not only has he personally produced awesome results but he
@@ -144,7 +144,7 @@ to achieving your next level of success."
 (1-800-GOT-JUNK?, WOW 1 DAY PAINTING, You Move Me, Shack Shine) \|
 \@BrianScudamore*
 
-![imgline.jpg](./00001.jpeg){.calibre4}
+![imgline.jpg](./assets/unlock-it/00001.jpeg){.calibre4}
 
 "I'm an author, entrepreneur, and Amazon consultant with a decade of
 experience. Dan's stories and spirit have inspired me to grow myself and
@@ -159,12 +159,12 @@ success."
 []{#part0001.html}
 
 []{#part0001.html#lpn_v .calibre3}[]{#part0001.html#lpn_vi
-.calibre3}![imghaf.jpg](./00002.jpeg){.h}
+.calibre3}![imghaf.jpg](./assets/unlock-it/00002.jpeg){.h}
 
 []{#part0002.html}
 
 []{#part0002.html#lpn_vii
-.calibre3}![imgtit.jpg](./00004.jpeg){.h}
+.calibre3}![imgtit.jpg](./assets/unlock-it/00004.jpeg){.h}
 
 []{#part0003.html}
 
@@ -208,7 +208,7 @@ person should be sought.
  
 
 ::: bordercopy
-![imgcopy.jpg](./00005.jpeg){.calibre4} Advantage Media Group is
+![imgcopy.jpg](./assets/unlock-it/00005.jpeg){.calibre4} Advantage Media Group is
 proud to be a part of the Tree Neutral^®^ program. Tree Neutral offsets
 the number of trees consumed in the production and printing of this book
 by taking proactive steps such as planting trees in direct proportion to
@@ -361,7 +361,7 @@ Capital](#part0017_split_000.html#G6PI0-f3febdd84af545eaa5228e960a7ca7a6){.calib
  
 
 []{#part0006_split_000.html#lpn_1
-.calibre3}![imgcrown.jpg](./00006.jpeg){.calibre4}
+.calibre3}![imgcrown.jpg](./assets/unlock-it/00006.jpeg){.calibre4}
 
 [**Introduction**](#part0005.html#tocf1){.calibre3}
 
@@ -404,13 +404,13 @@ information that connects all the dots. You're looking for that key that
 unlocks everything else for you.
 
 ::: group
-![imgborderblue.jpg](./00007.jpeg){.calibre4}
+![imgborderblue.jpg](./assets/unlock-it/00007.jpeg){.calibre4}
 
 ***You're looking for that missing link. You're looking for that piece
 of information that connects all the dots. You're looking for that key
 that unlocks everything else for you.***
 
-![imgborderblue.jpg](./00007.jpeg){.calibre4}
+![imgborderblue.jpg](./assets/unlock-it/00007.jpeg){.calibre4}
 :::
 
 If that's you, then my goal is to give you that key.
@@ -463,12 +463,12 @@ that's okay too---throw it away. No hard feelings. That's how I believe
 we all should learn.
 
 ::: group1
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[[]{#part0006_split_001.html#lpn_4 .calibre3}WHY AM I WRITING THIS
 BOOK AFTER TEN YEARS OF SILENCE?]{.cskyblue}**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 In my twenties I published about a dozen books, including a best-selling
@@ -521,11 +521,11 @@ that the name of the game is not getting rich; the name of the game is
 staying rich.
 
 ::: group1
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[WHAT YOU'LL GET FROM THIS BOOK]{.cskyblue}**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 In my past twenty years of business and life, I've picked up key lessons
@@ -605,7 +605,7 @@ If you're ready to begin, then flip the page.
  
 
 []{#part0007_split_000.html#lpn_9
-.calibre3}![imgkey.jpg](./00009.jpeg){.calibre4}
+.calibre3}![imgkey.jpg](./assets/unlock-it/00009.jpeg){.calibre4}
 
 [**[CHAPTER 0]{.cskyblue}**](#part0005.html#toc0){.calibre3}
 
@@ -728,13 +728,13 @@ her room. That's what it felt like when I, Dan Lok, had to step up and
 become a man.
 
 ::: group
-![imgborderblue.jpg](./00007.jpeg){.calibre4}
+![imgborderblue.jpg](./assets/unlock-it/00007.jpeg){.calibre4}
 
 ***Defining moments hurt like hell; they break you. They tear you into
 little pieces and test your resolve. If you make it through, you become
 a better version of yourself---a renewed version.***
 
-![imgborderblue.jpg](./00007.jpeg){.calibre4}
+![imgborderblue.jpg](./assets/unlock-it/00007.jpeg){.calibre4}
 :::
 
 Everything I have ever done wasn't for the money. I just never wanted to
@@ -743,11 +743,11 @@ took, I never wanted to see that look on my mom's face again. That's
 what started my entrepreneurial journey.
 
 ::: group1
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[THE FIRST \$100 IS THE SWEETEST]{.cskyblue}**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 At first, I thought getting a job would be the solution to all my money
@@ -847,12 +847,12 @@ doing what I did. I was just a dumb kid trying to make some money.
 You have to start somewhere, right?
 
 ::: group1
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[[]{#part0007_split_001.html#lpn_16 .calibre3}HOW TO GET \$150,000 IN
 DEBT IN THREE YEARS---GUARANTEED]{.cskyblue}**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 After starting my lawn-mowing business at seventeen and realizing it
@@ -974,11 +974,11 @@ couldn't leave my mom alone in this world. I knew that I had to man up
 and take care of my mom.
 
 ::: group1
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **["THIS SUCKS. DO IT AGAIN."]{.cskyblue}**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 After picking myself up, I started attending more seminars and workshops
@@ -1113,12 +1113,12 @@ didn't make me happy. I had everything I ever wanted and more, and yet I
 still felt unfulfilled.
 
 ::: group1
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[[]{#part0007_split_001.html#lpn_23 .calibre3}I DON'T KNOW WHY I'M
 CRYING]{.cskyblue}**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 One day I woke up with tears coming down my cheek. My wife, Jennie, saw
@@ -1173,12 +1173,12 @@ life that was fully aligned and fully congruent with my beliefs. That
 was when I moved into the final stage of my life: Significance.
 
 ::: group1
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[TO LIVE A LIFE YOU WILL LOVE, ASK YOURSELF THIS ONE
 QUESTION]{.cskyblue}**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 "Would you still do what you do if you won the lottery?" For most
@@ -1314,12 +1314,12 @@ So, if you were to ask me, "What do you do on a day-to-day basis?" my
 answer would be, "Whatever I want."
 
 ::: group1
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[[]{#part0007_split_002.html#lpn_27 .calibre3}THE FOUR STAGES OF
 LIFE]{.cskyblue}**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 At this stage of my life, I've gone through a lot. I've had my share of
@@ -1396,14 +1396,14 @@ relaxed, yet they see me achieving more than I ever have. They ask me,
 It's because I stopped focusing on success and moved toward
 Significance.
 
-![img29.jpg](./00010.jpeg){.calibre4}
+![img29.jpg](./assets/unlock-it/00010.jpeg){.calibre4}
 
 ::: group1
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[WHAT'S NEXT?]{.cskyblue}**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 You've heard my story, and now it's time to unlock your own.
@@ -1416,7 +1416,7 @@ you how to move to the financial stage you want.
  
 
 []{#part0008_split_000.html#lpn_31
-.calibre3}![imgkey.jpg](./00009.jpeg){.calibre4}
+.calibre3}![imgkey.jpg](./assets/unlock-it/00009.jpeg){.calibre4}
 
 [**[CHAPTER 1]{.cskyblue}**](#part0005.html#toc1){.calibre3}
 
@@ -1453,14 +1453,14 @@ give insight into how you can advance in your financial life.
 
 Let's get started.
 
-![img32.jpg](./00011.jpeg){.calibre4}
+![img32.jpg](./assets/unlock-it/00011.jpeg){.calibre4}
 
 ::: group
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[THE FOUR MOST DANGEROUS WEALTH MYTHS]{.cskyblue}**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 **[WEALTH MYTH #1: HUSTLE AND WORK HARDER]{.cnavyblue1}**
@@ -1485,7 +1485,7 @@ degree now. I still speak with a thick accent. I'm still the same Dan
 Lok; the only difference is the value I can deliver to the marketplace.
 Money is nothing more than the by-product of value creation.
 
-![img33.jpg](./00012.jpeg){.calibre4}
+![img33.jpg](./assets/unlock-it/00012.jpeg){.calibre4}
 
 If you ask most people how to make more money, they will tell you to
 work harder---"Get a second job, get another shift, put in overtime." I
@@ -1632,12 +1632,12 @@ your career.
 So how do you get that financial confidence?
 
 ::: group1
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[[]{#part0008_split_000.html#lpn_38 .calibre3}THE CONCEPT THAT CHANGED
 MY LIFE: THE WEALTH TRIANGLE]{.cskyblue}**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 This concept is simple but very profound---it is not theory or
@@ -1650,7 +1650,7 @@ the world.
 ::: group
 ## **[THE WEALTH TRIANGLE]{.cnavyblue}** {#part0008_split_001.html#calibre_pb_2 .calibre6}
 
-![img38.jpg](./00013.jpeg){.calibre4}
+![img38.jpg](./assets/unlock-it/00013.jpeg){.calibre4}
 
 Here's how it works:
 :::
@@ -1675,7 +1675,7 @@ If you're itching to learn more about High-Income Skills, you can jump
 to the chapter "Unlock Your High-Income Skills," where we dive deep into
 examples of High-Income Skills and how you can develop your skill.
 
-![img39.jpg](./00014.jpeg){.calibre4}
+![img39.jpg](./assets/unlock-it/00014.jpeg){.calibre4}
 
 **[[]{#part0008_split_001.html#lpn_40 .calibre3}2. PROFIT COMES THROUGH
 SCALABLE BUSINESSES]{.cskyblue}**
@@ -1713,12 +1713,12 @@ With your High-Return Investments, it builds your net worth and expands
 your POSSIBILITIES.
 
 ::: group1
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[[]{#part0008_split_001.html#lpn_41 .calibre3}WHY THE WEALTH TRIANGLE
 BREEDS CLARITY]{.cskyblue}**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 On the surface, the Wealth Triangle looks simple, and it is. When you
@@ -1740,7 +1740,7 @@ of course, if Kevin O'Leary were there, he'd reply, "You're dead to me."
 ::: group
 **[HIGH-INCOME SKILL LINE]{.cnavyblue1}**
 
-![img41.jpg](./00015.jpeg){.calibre4}
+![img41.jpg](./assets/unlock-it/00015.jpeg){.calibre4}
 :::
 
 []{#part0008_split_001.html#lpn_42 .calibre3}When you look at the
@@ -1779,13 +1779,13 @@ So before you jump into High-Return Investments, focus on developing
 High-Income Skills first.
 
 ::: group1
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[[]{#part0008_split_001.html#lpn_43
 .calibre3}[]{#part0008_split_001.html#lpn_44 .calibre3}CLARITY IS
 POWER]{.cskyblue}**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 Hopefully by now you've gained a glimpse into why the Wealth Triangle is
@@ -1807,7 +1807,7 @@ much more quickly.
  
 
 []{#part0009_split_000.html#lpn_45
-.calibre3}![imgkey.jpg](./00009.jpeg){.calibre4}
+.calibre3}![imgkey.jpg](./assets/unlock-it/00009.jpeg){.calibre4}
 
 [**[CHAPTER 2]{.cskyblue}**](#part0005.html#toc2){.calibre3}
 
@@ -1827,14 +1827,14 @@ Wealth Archetype you are, you'll know which of the following chapters in
 the book will be most useful to you.
 
 ::: group2
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[[]{#part0009_split_000.html#lpn_46 .calibre3}THE SIX WEALTH
 ARCHETYPES]{.cskyblue}**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
-![img46.jpg](./00016.jpeg){.calibre4}
+![img46.jpg](./assets/unlock-it/00016.jpeg){.calibre4}
 
 Let's jump in.
 :::
@@ -1842,13 +1842,13 @@ Let's jump in.
  
 
 ::: group1
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[]{#part0009_split_000.html#lpn_47 .calibre3}The Caged Lion**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
-![img47.jpg](./00017.jpeg){.calibre4}
+![img47.jpg](./assets/unlock-it/00017.jpeg){.calibre4}
 :::
 
 Picture this. You are a lion---fierce, wild, and born to hunt. You are
@@ -1947,13 +1947,13 @@ instead trades it for the comfort of a predictable routine.
  
 
 ::: group1
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[]{#part0009_split_001.html#lpn_51 .calibre3}The Chained Magician**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
-![img51.jpg](./00018.jpeg){.calibre4}
+![img51.jpg](./assets/unlock-it/00018.jpeg){.calibre4}
 :::
 
 You are a powerful magician. You have powers most people can only dream
@@ -2243,7 +2243,7 @@ actively sabotaging your goals and dreams. They make you feel guilty;
 they coax you into giving up; they want you to stop chasing your dreams,
 and all you can think to yourself is, "Why?"
 
-![img54.jpg](./00019.jpeg){.calibre4}
+![img54.jpg](./assets/unlock-it/00019.jpeg){.calibre4}
 
 Superman had this same conflict. He was born with all the power in the
 world, but his adoptive parents wanted to "protect him." They told him
@@ -2268,12 +2268,12 @@ words and opinions of their elders when, in reality, nobody can stop
 them but themselves.
 
 ::: group2
-![imgborderblue.jpg](./00007.jpeg){.calibre4}
+![imgborderblue.jpg](./assets/unlock-it/00007.jpeg){.calibre4}
 
 ***If you decide to release your power, you'll realize how much you can
 do, how much you're capable of, and how much impact you can have.***
 
-![imgborderblue.jpg](./00007.jpeg){.calibre4}
+![imgborderblue.jpg](./assets/unlock-it/00007.jpeg){.calibre4}
 :::
 
 ::: {#part0009_split_001.html#calibre_pb_4 .calibre1}
@@ -2284,14 +2284,14 @@ do, how much you're capable of, and how much impact you can have.***
  
 
 ::: group1
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[]{#part0009_split_002.html#lpn_56 .calibre3}The Hustling Treasure
 Hunter**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
-![img56.jpg](./00020.jpeg){.calibre4}
+![img56.jpg](./assets/unlock-it/00020.jpeg){.calibre4}
 :::
 
 The Hustling Treasure Hunter loves to go on adventures and find the next
@@ -2392,7 +2392,7 @@ if you start drilling at one spot and you move on to the next place
 before you hit oil, all you'll end up with are shallow holes in the
 ground.
 
-![img59.jpg](./00021.jpeg){.calibre4}
+![img59.jpg](./assets/unlock-it/00021.jpeg){.calibre4}
 
 If you truly want to strike and hit oil, commit to one idea, and stick
 to it until you make results happen. When you stick to one thing and
@@ -2407,7 +2407,7 @@ is too scared to commit to a specific one and quits before results can
 happen.
 
 ::: group1
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 []{#part0009_split_003.html}
@@ -2415,9 +2415,9 @@ happen.
 ::: group1
 ## **The Innocent Prisoner** {#part0009_split_003.html#calibre_pb_6 .calibre6}
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
-![img60.jpg](./00022.jpeg){.calibre4}
+![img60.jpg](./assets/unlock-it/00022.jpeg){.calibre4}
 :::
 
 What if you were jailed for a crime you didn't commit? How would you
@@ -2474,7 +2474,7 @@ brick and threw out the key. The Innocent Prisoner's biggest mistake is
 believing that following conventional wisdom and rules will bring them
 happiness, instead of listening to their wants and needs.
 
-![img62.jpg](./00023.jpeg){.calibre4}
+![img62.jpg](./assets/unlock-it/00023.jpeg){.calibre4}
 
 ::: {#part0009_split_003.html#calibre_pb_7 .calibre1}
 :::
@@ -2587,13 +2587,13 @@ did mine. Do not be like me."
  
 
 ::: group3
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[]{#part0009_split_005.html#lpn_67 .calibre3}The Castaway**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
-![img67.jpg](./00024.jpeg){.calibre4}
+![img67.jpg](./assets/unlock-it/00024.jpeg){.calibre4}
 :::
 
 Imagine you are on an airplane, and it suddenly CRASHES. You wake up and
@@ -2694,14 +2694,14 @@ no long-term sense of future certainty.
  
 
 ::: group1
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[]{#part0009_split_006.html#lpn_71 .calibre3}The Unfulfilled
 King/Queen**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
-![img71.jpg](./00025.jpeg){.calibre4}
+![img71.jpg](./assets/unlock-it/00025.jpeg){.calibre4}
 :::
 
 It wasn't easy, and you had to conquer many obstacles, but you're
@@ -2874,14 +2874,14 @@ which of the following chapters will serve you best. Now that we know
 your Wealth Archetype, it's time to start exploring the appropriate
 High-Income Skill.
 
-![img74.jpg](./00026.jpeg){.calibre4}
+![img74.jpg](./assets/unlock-it/00026.jpeg){.calibre4}
 
 []{#part0010_split_000.html}
 
  
 
 []{#part0010_split_000.html#lpn_75
-.calibre3}![imgkey.jpg](./00009.jpeg){.calibre4}
+.calibre3}![imgkey.jpg](./assets/unlock-it/00009.jpeg){.calibre4}
 
 [**[CHAPTER 3]{.cskyblue}**](#part0005.html#toc3){.calibre3}
 
@@ -2911,7 +2911,7 @@ economy" is steadily disappearing, and a new economy is emerging; it's
 what I call the Skill Economy.
 
 ::: group1
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 []{#part0010_split_001.html}
@@ -2919,7 +2919,7 @@ what I call the Skill Economy.
 ::: group1
 ## **[THE EMERGING SKILL ECONOMY]{.cskyblue1}** {#part0010_split_001.html#calibre_pb_2 .calibre6}
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 **[TWO FACTORS ARE DRIVING THE NEW SKILL ECONOMY:]{.cskyblue}**
@@ -3038,12 +3038,12 @@ Let's take a look at each part of the definition to understand why it is
 defined this way.
 
 ::: group1
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[[]{#part0010_split_001.html#lpn_79 .calibre3}WHY IS \$10,000 THE
 MAGIC NUMBER?]{.cskyblue}**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 There are two reasons why \$10,000 per month is the magic number for a
@@ -3081,7 +3081,7 @@ to get back to where they were; this is something you won't see from
 someone who has never earned \$10,000 in a month.
 
 ::: group1
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 []{#part0010_split_002.html}
@@ -3089,7 +3089,7 @@ someone who has never earned \$10,000 in a month.
 ::: group1
 ## **[HOW TO BECOME IRREPLACEABLE]{.cskyblue1}** {#part0010_split_002.html#calibre_pb_3 .calibre6}
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 Remember that we said High-Income Skills are low in supply and high in
@@ -3102,7 +3102,7 @@ outside of regular work hours. However, Uber drivers likely won't make a
 high income because they are replaceable. If one Uber driver isn't
 available, there were dozens of drivers waiting around the corner.
 
-![img80.jpg](./00027.jpeg){.calibre4}
+![img80.jpg](./assets/unlock-it/00027.jpeg){.calibre4}
 
 ::: {#part0010_split_002.html#calibre_pb_4 .calibre1}
 :::
@@ -3112,12 +3112,12 @@ available, there were dozens of drivers waiting around the corner.
  
 
 ::: group1
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[[]{#part0010_split_003.html#lpn_81 .calibre3}THREE DIFFERENT PATHS TO
 \$10,000 A MONTH]{.cskyblue}**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 There are many ways to earn \$10,000 per month, but not all \$10,000
@@ -3190,7 +3190,7 @@ home, a coffee shop, or anywhere you'd like.
 Once you acquire your High-Income Skill, you'll be able to start living
 your life with real financial confidence.
 
-![img83.jpg](./00028.jpeg){.calibre4}
+![img83.jpg](./assets/unlock-it/00028.jpeg){.calibre4}
 
 **[UPGRADE YOUR SKILLS, UPGRADE YOUR INCOME]{.cnavyblue1}**
 
@@ -3211,11 +3211,11 @@ sales a month. At \$300 for every commission, you wouldn't be getting
 Skill---your income rises as you become better at your skill.
 
 ::: group1
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[CAN HIGH-INCOME SKILLS MULTIPLY YOUR INCOME?]{.cskyblue}**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 When you "stack" your High-Income Skills correctly, they can amplify
@@ -3254,7 +3254,7 @@ year. Are you starting to see the power of stacking High-Income Skills?
 ::: group
 **[HIGH-INCOME SKILL STACK]{.cnavyblue1}**
 
-![img85.jpg](./00029.jpeg){.calibre4}
+![img85.jpg](./assets/unlock-it/00029.jpeg){.calibre4}
 :::
 
 Not only that, I added another High-Income Skill to my stack---the skill
@@ -3302,7 +3302,7 @@ building a wall like Will Smith described, they are making a brick pile.
 **[[]{#part0010_split_003.html#lpn_87 .calibre3}HIGH-INCOME SKILL
 PILE]{.cnavyblue1}**
 
-![img87.jpg](./00030.jpeg){.calibre4}
+![img87.jpg](./assets/unlock-it/00030.jpeg){.calibre4}
 :::
 
 You may go through times that are tough when developing your High-Income
@@ -3314,12 +3314,12 @@ want to change course: be patient. Wait until you can earn \$10,000 a
 month with your first High-Income Skill before moving to the next.
 
 ::: group1
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[[]{#part0010_split_003.html#lpn_88 .calibre3}\$120,000+ HIGH-INCOME
 SKILLS (NO DEGREE REQUIRED)]{.cskyblue}**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 Your next question might be, "Okay, I get it. High Income-Skills are the
@@ -3457,11 +3457,11 @@ it in chapter 7---Unlock Your Sales. There you'll find an in-depth guide
 on how to close High-Ticket Deals over the phone.
 
 ::: group1
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[THE ULTIMATE HIGH-INCOME SKILLS]{.cskyblue}**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 All of these examples have the potential to become High-Income Skills,
@@ -3490,11 +3490,11 @@ Once you learn it, you keep that skill for life. You never forget how to
 ride a bike. It's the same with these High-Income Skills.
 
 ::: group1
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[HOW DO YOU DEVELOP YOUR HIGH-INCOME SKILL?]{.cskyblue}**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 Now that you understand the power of having a High-Income Skill, doesn't
@@ -3510,7 +3510,7 @@ information or resources; it's something much deeper than that.
  
 
 []{#part0011.html#lpn_93 .calibre3}[]{#part0011.html#lpn_94
-.calibre3}![imgkey.jpg](./00009.jpeg){.calibre4}
+.calibre3}![imgkey.jpg](./assets/unlock-it/00009.jpeg){.calibre4}
 
 [**[CHAPTER 4]{.cskyblue}**](#part0005.html#toc4){.calibre3}
 
@@ -3524,7 +3524,7 @@ this one.
  
 
 []{#part0012_split_000.html#lpn_95
-.calibre3}![imgkey.jpg](./00009.jpeg){.calibre4}
+.calibre3}![imgkey.jpg](./assets/unlock-it/00009.jpeg){.calibre4}
 
 [**[CHAPTER 5]{.cskyblue}**](#part0005.html#toc5){.calibre3}
 
@@ -3583,7 +3583,7 @@ There is plenty of information on how to achieve any goal. Lack of
 knowledge is not the problem. Lack of wisdom is.
 
 []{#part0012_split_000.html#lpn_97
-.calibre3}![img97.jpg](./00031.jpeg){.calibre4}
+.calibre3}![img97.jpg](./assets/unlock-it/00031.jpeg){.calibre4}
 
 **[WHY WE NEED LESS KNOWLEDGE AND MORE WISDOM]{.cnavyblue1}**
 
@@ -3617,7 +3617,7 @@ what you already know. Let me show you what I mean.
 Let's imagine that there is a box. Inside this box is "what you know."
 
 []{#part0012_split_000.html#lpn_98
-.calibre3}![img98a.jpg](./00032.jpeg){.calibre4}
+.calibre3}![img98a.jpg](./assets/unlock-it/00032.jpeg){.calibre4}
 
 Your ego, your experiences, and all your existing current beliefs live
 inside this box. For most people, this box is tiny and compact.
@@ -3625,14 +3625,14 @@ inside this box. For most people, this box is tiny and compact.
 Now, imagine there's another larger box around the "what you know" box.
 This box represents "what you don't know."
 
-![img98b.jpg](./00033.jpeg){.calibre4}
+![img98b.jpg](./assets/unlock-it/00033.jpeg){.calibre4}
 
 Notice how this box is much bigger. There is a lot more of what you
 don't know than what you do; however, it gets even more interesting. Now
 I want you to imagine a LARGE area outside of both boxes.
 
 []{#part0012_split_000.html#lpn_99
-.calibre3}![img99.jpg](./00034.jpeg){.calibre4}
+.calibre3}![img99.jpg](./assets/unlock-it/00034.jpeg){.calibre4}
 
 This space represents "what you don't know that you don't know."
 
@@ -3667,7 +3667,7 @@ thousands of people in person and tens of millions online, I found that
 every person has at least one of these "Invisible Chains" holding them
 back from achieving their goals.
 
-![img100.jpg](./00035.jpeg){.calibre4}
+![img100.jpg](./assets/unlock-it/00035.jpeg){.calibre4}
 
 []{#part0012_split_000.html#lpn_101 .calibre3}Sometimes these chains are
 hidden in plain sight and seen as "normal" by society, but when you put
@@ -3682,7 +3682,7 @@ it.
 See if you recognize some of them.
 
 ::: group
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 []{#part0012_split_001.html}
@@ -3690,7 +3690,7 @@ See if you recognize some of them.
 ::: group
 ## **[THE SEVEN INVISIBLE CHAINS]{.cskyblue1}** {#part0012_split_001.html#calibre_pb_2 .calibre6}
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 **[INVISIBLE CHAIN #1: "GET RICH SLOWLY"]{.cnavyblue1}**
@@ -3720,7 +3720,7 @@ makes it in forty years.
 That's why wealth is measured more in time than money. So if you want to
 become wealthy, it's better to do it quickly than to do it slowly.
 
-![img102.jpg](./00036.jpeg){.calibre4}
+![img102.jpg](./assets/unlock-it/00036.jpeg){.calibre4}
 
 When most people think of the idea of "getting rich quick," or if you
 even mention the idea, they think it must be some scheme or scam, or it
@@ -3755,7 +3755,7 @@ the value you bring to the marketplace, not by how many hours you work.
 ***"You can't become who you want to be because you're too attached to
 who you've always been."***
 
-![img103.jpg](./00037.jpeg){.calibre4}
+![img103.jpg](./assets/unlock-it/00037.jpeg){.calibre4}
 :::
 
 []{#part0012_split_001.html#lpn_104 .calibre3}Do you know a couple
@@ -4050,7 +4050,7 @@ life, not people who take away from it.
 **[[]{#part0012_split_001.html#lpn_111 .calibre3}INVISIBLE CHAIN #4:
 YOUR COMFORT ZONE]{.cnavyblue1}**
 
-![img111.jpg](./00038.jpeg){.calibre4}
+![img111.jpg](./assets/unlock-it/00038.jpeg){.calibre4}
 :::
 
 []{#part0012_split_001.html#lpn_112 .calibre3}Let's do a powerful
@@ -4095,7 +4095,7 @@ want to have, and the things you want to own.
 ::: group
 **[MAGIC HAPPENS OUTSIDE YOUR COMFORT ZONE]{.cskyblue}**
 
-![img113.jpg](./00039.jpeg){.calibre4}
+![img113.jpg](./assets/unlock-it/00039.jpeg){.calibre4}
 :::
 
 Once I went to go bungee jumping in Whistler (a town in the mountains
@@ -4189,7 +4189,7 @@ you see why those who perform uncomfortable actions have a higher
 potential?
 
 []{#part0012_split_001.html#lpn_116
-.calibre3}![img116.jpg](./00040.jpeg){.calibre4}
+.calibre3}![img116.jpg](./assets/unlock-it/00040.jpeg){.calibre4}
 
 **[FEAR OF FAILURE VS. FEAR OF SUCCESS]{.cskyblue}**
 
@@ -4256,7 +4256,7 @@ Why else would some people feel one way about the rain, and Jennie would
 feel another way? It's the same rain---it's just that different meanings
 are attached to it.
 
-![img118.jpg](./00041.jpeg){.calibre4}
+![img118.jpg](./assets/unlock-it/00041.jpeg){.calibre4}
 
 When you are going through life, you'll realize that not many things are
 within your direct control. The weather, the traffic, the economy, the
@@ -4504,7 +4504,7 @@ be time to push down on the gas pedal.
  
 
 []{#part0013_split_000.html#lpn_125
-.calibre3}![imgkey.jpg](./00009.jpeg){.calibre4}
+.calibre3}![imgkey.jpg](./assets/unlock-it/00009.jpeg){.calibre4}
 
 [**[CHAPTER 6]{.cskyblue}**](#part0005.html#toc6){.calibre3}
 
@@ -4571,11 +4571,11 @@ productivity. Some you may know; some you may not know. These are what
 have worked for me.
 
 ::: group
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[DAN'S FIVE KEYS TO UNLOCKING MAXIMUM PRODUCTIVITY]{.cskyblue}**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 **[MAXIMUM PRODUCTIVITY KEY #1: BE ABSOLUTELY RUTHLESS ABOUT YOUR
@@ -4756,7 +4756,7 @@ If your goal is to make \$1 million a year, then the question you should
 be asking yourself is, "Is what I'm doing right now worth \$1,562.49 an
 hour?"
 
-![img131.jpg](./00042.jpeg){.calibre4}
+![img131.jpg](./assets/unlock-it/00042.jpeg){.calibre4}
 
 Most people try to achieve their goals by working harder and longer.
 They'll take a second job, a night shift, a part-time gig. They try to
@@ -4777,12 +4777,12 @@ one hour of thinking and strategizing for my organization is more than
 the value I could create by consulting with another company.)
 
 ::: group
-![imgborderblue.jpg](./00007.jpeg){.calibre4}
+![imgborderblue.jpg](./assets/unlock-it/00007.jpeg){.calibre4}
 
 ***Just because you are splashing around in the water, it doesn't mean
 you are swimming.***
 
-![imgborderblue.jpg](./00007.jpeg){.calibre4}
+![imgborderblue.jpg](./assets/unlock-it/00007.jpeg){.calibre4}
 :::
 
 []{#part0013_split_000.html#lpn_132 .calibre3}How did I grow to that
@@ -4793,7 +4793,7 @@ splashing around in the water, it doesn't mean you are swimming.
 ::: group
 **[EXERCISE: WHAT IS YOUR MAGIC NUMBER?]{.cskyblue}**
 
-![img132.jpg](./00043.jpeg){.calibre4}
+![img132.jpg](./assets/unlock-it/00043.jpeg){.calibre4}
 :::
 
 **[[]{#part0013_split_000.html#lpn_133 .calibre3}MAXIMUM PRODUCTIVITY
@@ -4950,17 +4950,17 @@ percent of your actions create the most results for you, you can
 eliminate the other 80 percent. Instead of a "to-do list," you can
 create a "not to-do list" and increase your focus.
 
-![img135.jpg](./00044.jpeg){.calibre4}
+![img135.jpg](./assets/unlock-it/00044.jpeg){.calibre4}
 
 []{#part0013_split_000.html#lpn_136
-.calibre3}![img136a.jpg](./00045.jpeg){.calibre4}
+.calibre3}![img136a.jpg](./assets/unlock-it/00045.jpeg){.calibre4}
 
-![img136b.jpg](./00046.jpeg){.calibre4}
+![img136b.jpg](./assets/unlock-it/00046.jpeg){.calibre4}
 
 []{#part0013_split_000.html#lpn_137
-.calibre3}![img137a.jpg](./00047.jpeg){.calibre4}
+.calibre3}![img137a.jpg](./assets/unlock-it/00047.jpeg){.calibre4}
 
-![img137b.jpg](./00048.jpeg){.calibre4}
+![img137b.jpg](./assets/unlock-it/00048.jpeg){.calibre4}
 
 **[[]{#part0013_split_000.html#lpn_138 .calibre3}FOCUS ON THE FEW, NOT
 THE MANY]{.cskyblue}**
@@ -4992,7 +4992,7 @@ mine in fifteen-minute increments. I set aside blocks of time for
 everything I do during the day. This control gives me the freedom to do
 what I love to do every day.
 
-![img138.jpg](./00049.jpeg){.calibre4}
+![img138.jpg](./assets/unlock-it/00049.jpeg){.calibre4}
 
 **[[]{#part0013_split_000.html#lpn_139 .calibre3}SCRIPT YOUR DAY; DON'T
 SCHEDULE]{.cskyblue}**
@@ -5169,7 +5169,7 @@ one thing and continually look for others to give them direction. What
 they don't understand is that wealth is acquired by committing to one
 idea over time.
 
-![img143.jpg](./00050.jpeg){.calibre4}
+![img143.jpg](./assets/unlock-it/00050.jpeg){.calibre4}
 
 []{#part0013_split_007.html}
 
@@ -5208,7 +5208,7 @@ them, they will weaken. Whenever you recognize that one of the seven has
 shown up, here's what you do: take action, because action drives out
 thought.
 
-![img144.jpg](./00051.jpeg){.calibre4}
+![img144.jpg](./assets/unlock-it/00051.jpeg){.calibre4}
 
 Have you ever experienced procrastination once you've already started
 something? Probably not, because procrastination shows up strongest
@@ -5270,7 +5270,7 @@ can accomplish.
  
 
 []{#part0014_split_000.html#lpn_147
-.calibre3}![imgkey.jpg](./00009.jpeg){.calibre4}
+.calibre3}![imgkey.jpg](./assets/unlock-it/00009.jpeg){.calibre4}
 
 [**[CHAPTER 7]{.cskyblue}**](#part0005.html#toc7){.calibre3}
 
@@ -5355,12 +5355,12 @@ closers only take inbound calls generated from marketing. Take these
 rules. Implement them. You'll be astounded at the results.
 
 ::: group1
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[[]{#part0014_split_000.html#lpn_150 .calibre3}THE FIVE RULES OF
 HIGH-TICKET CLOSING®]{.cskyblue}**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 Remember, we're not talking about cold calling, door knocking, or any of
@@ -5479,7 +5479,7 @@ Closing^®^, we don't do any of that, nor do we want to.
 Remember---High-Ticket Closing^®^ is about asking the right questions at
 the right time with finesse.
 
-![img153.jpg](./00052.jpeg){.calibre4}
+![img153.jpg](./assets/unlock-it/00052.jpeg){.calibre4}
 
 **[[]{#part0014_split_000.html#lpn_154 .calibre3}HIGH-TICKET CLOSING®
 RULE #3: PEOPLE DON'T BUY THEIR WAY INTO SOMETHING; THEY BUY THEIR WAY
@@ -5787,11 +5787,11 @@ negative people again? You have a choice, and you deserve to choose who
 you have as a customer or client.
 
 ::: group
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[THE HIGH-TICKET CLOSING^®^ METHODOLOGY]{.cskyblue}**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 **[HOW TO NATURALLY AND LOGICALLY MOVE THE PROSPECT TO THEIR OWN
@@ -5821,7 +5821,7 @@ scripts. It's a []{#part0014_split_001.html#lpn_160
 Once you fully internalize this script, you'll be able to connect deeply
 with your prospect.
 
-![img160.jpg](./00053.jpeg){.calibre4}
+![img160.jpg](./assets/unlock-it/00053.jpeg){.calibre4}
 
 **[STAGE ONE: THE AGENDA]{.cskyblue}**
 
@@ -6198,7 +6198,7 @@ core components to unlocking your business growth.
  
 
 []{#part0015_split_000.html#lpn_167
-.calibre3}![imgkey.jpg](./00009.jpeg){.calibre4}
+.calibre3}![imgkey.jpg](./assets/unlock-it/00009.jpeg){.calibre4}
 
 [**[CHAPTER 8]{.cskyblue}**](#part0005.html#toc8){.calibre3}
 
@@ -6220,14 +6220,14 @@ how you can set up the core structure of your business so it can grow,
 scale, and remain sane?
 
 ::: group1
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[[]{#part0015_split_000.html#lpn_168 .calibre3}THE THREE PILLARS OF
 BUSINESS GROWTH]{.cskyblue}**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
-![img168.jpg](./00054.jpeg){.calibre4}
+![img168.jpg](./assets/unlock-it/00054.jpeg){.calibre4}
 :::
 
 When you look at it, there are only three ways to unlock your business
@@ -6321,7 +6321,7 @@ find that their business isn't growing. They don't realize the reason
 they aren't growing and are struggling is that you cannot control
 referrals.
 
-![img169.jpg](./00055.jpeg){.calibre4}
+![img169.jpg](./assets/unlock-it/00055.jpeg){.calibre4}
 
 []{#part0015_split_000.html#lpn_170 .calibre3}Many business owners don't
 mind relying on referrals and are proud to say that they spend no money
@@ -6353,7 +6353,7 @@ competition. In the end, whoever can spend the most money to acquire a
 customer wins.
 
 []{#part0015_split_001.html#lpn_171
-.calibre3}![img171.jpg](./00056.jpeg){.calibre4}
+.calibre3}![img171.jpg](./assets/unlock-it/00056.jpeg){.calibre4}
 
 Now how do you decide on the amount you're willing to spend on acquiring
 a customer? For my team, our allowable cost per acquisition is 70
@@ -6387,7 +6387,7 @@ your customers to rate you from one to ten on this question:
 []{#part0015_split_002.html#lpn_172 .calibre3}"How likely are you to
 recommend our product/service to a friend or colleague?
 
-![img172.jpg](./00057.jpeg){.calibre4}
+![img172.jpg](./assets/unlock-it/00057.jpeg){.calibre4}
 
 Your customers will fall into one of three categories:
 
@@ -6452,7 +6452,7 @@ most to least loyal:
 
 [5. ]{.list}Prospect
 
-![img173.jpg](./00058.jpeg){.calibre4}
+![img173.jpg](./assets/unlock-it/00058.jpeg){.calibre4}
 
 The raving fan loves your business and tells all their friends about it.
 The member is a loyal customer who buys from you consistently and
@@ -6462,7 +6462,7 @@ come back. The prospect is looking for a solution to their problem, and
 you're one of the options they're investigating.
 
 []{#part0015_split_003.html#lpn_174
-.calibre3}![img174.jpg](./00059.jpeg){.calibre4}
+.calibre3}![img174.jpg](./assets/unlock-it/00059.jpeg){.calibre4}
 
 Your job is to move the prospect up the Loyalty Ladder---turning your
 prospects into raving fans and members.
@@ -6564,7 +6564,7 @@ buy more from you---they need the right offers presented to them.
 []{#part0015_split_006.html#lpn_177 .calibre3}Here's an example of one
 of my company's sales funnels:
 
-![img177.jpg](./00060.jpeg){.calibre4}
+![img177.jpg](./assets/unlock-it/00060.jpeg){.calibre4}
 :::
 
 On the front end, there is a \$99 offer made to the prospect. (This is
@@ -6658,11 +6658,11 @@ working on optimization, ask yourself these questions:
 +-------------+-------------+-------------+-------------+-------------+
 
 ::: group1
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[THE KEY TO UNLOCKING YOUR BUSINESS GROWTH]{.cskyblue}**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 When you strengthen the three pillars of Attraction, Retention, and
@@ -6715,7 +6715,7 @@ component to consider as you scale your business: your profit margins.
  
 
 []{#part0016_split_000.html#lpn_181
-.calibre3}![imgkey.jpg](./00009.jpeg){.calibre4}
+.calibre3}![imgkey.jpg](./assets/unlock-it/00009.jpeg){.calibre4}
 
 [**[CHAPTER 9]{.cskyblue}**](#part0005.html#toc9){.calibre3}
 
@@ -6751,7 +6751,7 @@ The only thing that matters in running a business is net profit.
 Businesses go bankrupt because they run out of cash---and you cannot
 have any cash left if you don't make any profits.
 
-![img182.jpg](./00061.jpeg){.calibre4}
+![img182.jpg](./assets/unlock-it/00061.jpeg){.calibre4}
 
 On top of that, when you have low-profit margins, here's what also
 happens:
@@ -6896,15 +6896,15 @@ want you to make the same mistake. I've learned the hard way that you
 cannot multiply zero. I've learned the hard way that business is a game
 of margins, not volume.
 
-![img183.jpg](./00062.jpeg){.calibre4}
+![img183.jpg](./assets/unlock-it/00062.jpeg){.calibre4}
 
 ::: group1
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[[]{#part0016_split_000.html#lpn_184 .calibre3}THREE REASONS WHY
 SELLING HIGH TICKET MAKES SENSE]{.cskyblue}**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 When you sell High-Ticket Offers, you're making a larger profit margin.
@@ -6963,10 +6963,10 @@ Forget what everyone else says: size matters. We're talking about
 transaction size. There are many ways to make money, but how you make
 money is as important as how much money you make.
 
-![img185.jpg](./00063.jpeg){.calibre4}
+![img185.jpg](./assets/unlock-it/00063.jpeg){.calibre4}
 
 []{#part0016_split_000.html#lpn_186
-.calibre3}![img186.jpg](./00064.jpeg){.calibre4}
+.calibre3}![img186.jpg](./assets/unlock-it/00064.jpeg){.calibre4}
 
 There are many different ways to make a million dollars. However, is
 there a difference between having one hundred thousand customers versus
@@ -6993,7 +6993,7 @@ fewer customers will have a much better time scaling sustainably.
 Not all customers are the same. You see, there are four types of
 customers---some you want to market to; some you don't.
 
-![img187.jpg](./00065.jpeg){.calibre4}
+![img187.jpg](./assets/unlock-it/00065.jpeg){.calibre4}
 
 []{#part0016_split_001.html}
 
@@ -7066,12 +7066,12 @@ there are three pervasive myths that keep entrepreneurs from selling
 High-Ticket Offers.
 
 ::: group
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[THREE MYTHS THAT PREVENT ENTREPRENEURS FROM CHARGING PREMIUM
 PRICES]{.cskyblue}**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 **[MYTH #1: I'LL LOSE ALL MY CUSTOMERS IF I RAISE MY
@@ -7158,11 +7158,11 @@ deep emotion, you'll start to see that selling High-Ticket Offers is
 much easier than expected.
 
 ::: group1
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[HOW TO SELL HIGH-TICKET OFFERS AT PREMIUM PRICES]{.cskyblue}**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 When you change your offer, you change your life.
@@ -7208,7 +7208,7 @@ you.
  
 
 []{#part0017_split_000.html#lpn_195
-.calibre3}![imgkey.jpg](./00009.jpeg){.calibre4}
+.calibre3}![imgkey.jpg](./assets/unlock-it/00009.jpeg){.calibre4}
 
 [**[CHAPTER 10]{.cskyblue}**](#part0005.html#toc10){.calibre3}
 
@@ -7233,7 +7233,7 @@ choice but to sit through the commercial. It's become more
 grab attention. It's not that your customers don't trust you; they don't
 even know you exist.
 
-![img196.jpg](./00066.jpeg){.calibre4}
+![img196.jpg](./assets/unlock-it/00066.jpeg){.calibre4}
 
 Consumers today want what they want when they want it, where they want
 it, and how they want it. They could be watching YouTube on their TVs,
@@ -7269,7 +7269,7 @@ capital that allows you to multiply financial capital---it's called
 Social Capital.
 
 ::: group1
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 []{#part0017_split_001.html}
@@ -7277,7 +7277,7 @@ Social Capital.
 ::: group1
 ## **[THE RISE OF SOCIAL CAPITAL]{.cskyblue1}** {#part0017_split_001.html#calibre_pb_2 .calibre6}
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 You might have heard the saying that "attention is the new
@@ -7346,7 +7346,7 @@ Somehow, people think this is okay. Imagine going into a bank and trying
 to withdraw when you have nothing in the account---there's a word for
 that: it's called "robbery."
 
-![img199.jpg](./00067.jpeg){.calibre4}
+![img199.jpg](./assets/unlock-it/00067.jpeg){.calibre4}
 
 On the other hand, some companies have a good balance of depositing into
 their followers and withdrawing from their social capital. They focus on
@@ -7362,7 +7362,7 @@ bank. If times get tough, you won't have anything to draw from---you
 won't have any social capital reserve.
 
 []{#part0017_split_001.html#lpn_200
-.calibre3}![img200.jpg](./00068.jpeg){.calibre4}
+.calibre3}![img200.jpg](./assets/unlock-it/00068.jpeg){.calibre4}
 
 That's why I deposit more into my social capital than I withdraw. I make
 deposits into my social capital every single day. So when I want to
@@ -7382,7 +7382,7 @@ to, and I wouldn't need to wait. Why is that? Because I've accumulated a
 substantial amount of social capital over the years.
 
 []{#part0017_split_001.html#lpn_201
-.calibre3}![img201.jpg](./00069.jpeg){.calibre4}
+.calibre3}![img201.jpg](./assets/unlock-it/00069.jpeg){.calibre4}
 
 When you think of it this way, you can see how any platform becomes a
 bank for your social capital. Facebook is a bank, Instagram is a bank,
@@ -7402,7 +7402,7 @@ capital---you can create your network.
 **[]{#part0017_split_001.html#lpn_202 .calibre3}DAN LOK'S YOUTUBE
 STATISTICS**
 
-![img202a.jpg](./00070.jpeg){.calibre4}
+![img202a.jpg](./assets/unlock-it/00070.jpeg){.calibre4}
 :::
 
  
@@ -7410,7 +7410,7 @@ STATISTICS**
 ::: group2
 **DAN LOK'S INSTAGRAM STATISTICS**
 
-![img202b.jpg](./00071.jpeg){.calibre4}
+![img202b.jpg](./assets/unlock-it/00071.jpeg){.calibre4}
 :::
 
  
@@ -7419,7 +7419,7 @@ STATISTICS**
 **[]{#part0017_split_001.html#lpn_203 .calibre3}DAN LOK'S FACEBOOK
 STATISTICS**
 
-![img203.jpg](./00072.jpeg){.calibre4}
+![img203.jpg](./assets/unlock-it/00072.jpeg){.calibre4}
 :::
 
 Without social capital, you are in danger. If you are a brand-new
@@ -7448,7 +7448,7 @@ consistently.
 **[[]{#part0017_split_001.html#lpn_204 .calibre3}THE SOCIAL CAPITAL
 MULTIPLIER]{.cskyblue}**
 
-![img204.jpg](./00073.jpeg){.calibre4}
+![img204.jpg](./assets/unlock-it/00073.jpeg){.calibre4}
 :::
 
 The Social Capital Multiplier is divided into three steps: Accumulation,
@@ -7596,13 +7596,13 @@ Allocate about 25 percent of your budget if you decide to implement this
 strategy.
 
 ::: group1
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 
 **[[]{#part0017_split_001.html#lpn_207
 .calibre3}[]{#part0017_split_001.html#lpn_208 .calibre3}WHERE DO YOU GO
 FROM HERE?]{.cskyblue}**
 
-![imgborderblue1.jpg](./00008.jpeg){.calibre4}
+![imgborderblue1.jpg](./assets/unlock-it/00008.jpeg){.calibre4}
 :::
 
 There's not enough room in this book to show you in detail everything we
@@ -7623,7 +7623,7 @@ this at
  
 
 []{#part0018.html#lpn_209
-.calibre3}![imgkey.jpg](./00009.jpeg){.calibre4}
+.calibre3}![imgkey.jpg](./assets/unlock-it/00009.jpeg){.calibre4}
 
 [**Conclusion**](#part0005.html#tocf2){.calibre3}
 
@@ -7662,7 +7662,7 @@ Until then, keep learning, keep implementing, and keep taking action.
  
 
 []{#part0019_split_000.html#lpn_211
-.calibre3}![imgkey.jpg](./00009.jpeg){.calibre4}
+.calibre3}![imgkey.jpg](./assets/unlock-it/00009.jpeg){.calibre4}
 
 [**Index**](#part0005.html#tocf3){.calibre3}
 
@@ -7985,7 +7985,7 @@ investments [ref 1](#part0008_split_000.html#lpn_35){.calibre3}-[ref
 .calibre3}[]{#part0019_split_001.html#lpn_218
 .calibre3}[]{#part0019_split_001.html#lpn_219
 .calibre3}[]{#part0019_split_001.html#lpn_220
-.calibre3}![img215.jpg](./00074.jpeg){.calibre4}
+.calibre3}![img215.jpg](./assets/unlock-it/00074.jpeg){.calibre4}
 
 []{#part0020.html}
 
@@ -7994,7 +7994,7 @@ investments [ref 1](#part0008_split_000.html#lpn_35){.calibre3}-[ref
 
  
 
-![imgcrown.jpg](./00006.jpeg){.calibre4}
+![imgcrown.jpg](./assets/unlock-it/00006.jpeg){.calibre4}
 
 **ENDNOTES**
 
