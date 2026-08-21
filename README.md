@@ -46,7 +46,8 @@ Marketing Skills/
 │       │       ├── persuasion_psychology_closing_playbook.md # Simple closing and persuasion tricks
 │       │       ├── email_marketing_schedules_and_templates.md # When to send emails + ready templates
 │       │       ├── ad_and_landing_page_blueprints.md # Simple layouts for ads and sales pages
-│       │       └── multilingual_marketing_and_video_dubbing.md # 40-Language dubbing & localization guide
+│       │       ├── multilingual_marketing_and_video_dubbing.md # 40-Language dubbing & localization guide
+│       │       └── ai_video_creation_and_scene_prompting.md # Hollywood AI video & 10s scene prompting guide
 │       ├── sell-like-crazy/SKILL.md                # 🎯 Sabri Suby skill
 │       ├── storytelling-sales/SKILL.md             # 📖 Story selling skill
 │       ├── nigeria-market-conversion/SKILL.md      # 🇳🇬 Nigerian selling skill
@@ -99,6 +100,9 @@ You don't need fancy prompt engineering. Just talk normally:
 
 ### 8. Write a Multi-Language SEO Blog with Hreflang Tags & Localized Schema
 > *"Use the `blog-multilingual` skill to write a high-value blog post on 'How to Get B2B Clients' in English, Spanish, and French. Include hreflang tags, localized JSON-LD schema, and adapt the examples for each country."*
+
+### 9. AI Video Creator & 10-Second Scene Director (Google Veo, Sora, Kling, Runway)
+> *"I have a product called **[Product Name]** for **[Target Audience]** (Duration: 60s, Extra Details: [Offer/Pricing]). Break this down into six continuous 10-second scenes with zero context loss. Include professional camera movements, lighting, exact text-to-video AI visual prompts, timed 20-word voiceovers, on-screen text, sound design, and scene transitions."*
 
 ---
 
@@ -176,7 +180,16 @@ python3 .agents/skills/marketing-mastery/scripts/marketing_engine.py video-ad \
   --cta "Click the link below and grab your 100% free roadmap"
 ```
 
-#### D. TikTok / Instagram Reels Short-Form Hook & 30s Script
+#### D. Hollywood-Grade AI Video & 10s Scene Prompter (Google Veo, Sora, Kling, Runway)
+```bash
+python3 .agents/skills/marketing-mastery/scripts/marketing_engine.py ai-video \
+  --product "Smart Solar Home Generator" \
+  --audience "Nigerian Homeowners" \
+  --duration 60 \
+  --more-info "Zero fuel noise, powers AC and fridge, Free Nationwide Delivery + Pay on Delivery"
+```
+
+#### E. TikTok / Instagram Reels Short-Form Hook & 30s Script
 ```bash
 python3 .agents/skills/marketing-mastery/scripts/marketing_engine.py tiktok-ad \
   --topic "Agency Scaling" \

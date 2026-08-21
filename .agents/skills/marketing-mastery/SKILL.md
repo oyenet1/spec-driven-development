@@ -48,6 +48,10 @@ This skill equips the agent with a complete, battle-tested marketing operating s
    - Reference: [multilingual_marketing_and_video_dubbing.md](./references/multilingual_marketing_and_video_dubbing.md)
    - Dedicated Skill: [language-swap](../language-swap/SKILL.md)
 
+9. **AI Video Creator & 10-Second Scene Director:**
+   - Hollywood cinematography and direct-response scene prompting for AI video generators (Google Veo, Sora, Kling, Runway Gen-3, Pika, Luma Dream Machine) broken into continuous 10-second blocks with camera movements, lighting, voiceovers, kinetic typography, SFX, and transition cues (zero context loss).
+   - Reference: [ai_video_creation_and_scene_prompting.md](./references/ai_video_creation_and_scene_prompting.md)
+
 ---
 
 ## Step-by-Step Execution Workflow for Any Campaign

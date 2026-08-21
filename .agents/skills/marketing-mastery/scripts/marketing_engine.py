@@ -327,6 +327,109 @@ def generate_video_ad_script(hook, pain_point, solution_name, proof_point, cta_c
     print(script)
 
 
+def generate_ai_video_director_scenes(product_name, target_audience, duration_seconds=60, more_info=""):
+    print("=" * 80)
+    print("PROFESSIONAL AI VIDEO DIRECTOR — 10-SECOND SCENE PROMPTS & SCRIPT ENGINE")
+    print("=" * 80)
+    
+    num_scenes = max(1, duration_seconds // 10)
+    
+    print(f"🎬 PROJECT: {product_name}")
+    print(f"🎯 TARGET AUDIENCE: {target_audience}")
+    print(f"⏱️ TOTAL RUNTIME: {duration_seconds} Seconds ({num_scenes} Continuous 10s Scenes)")
+    if more_info:
+        print(f"💡 SPECIAL DETAILS / OFFER: {more_info}")
+    print("=" * 80)
+
+    scenes_data = [
+        {
+            "num": 1,
+            "time": "0:00 - 0:10",
+            "phase": "THE PATTERN INTERRUPT HOOK",
+            "camera": "Extreme Close-Up (ECU) fast push-in to Medium Close-Up (MCU). 35mm anamorphic lens, f/1.8 shallow depth of field, 24fps cinematic motion blur.",
+            "lighting": "High-contrast dynamic volumetric rim lighting with subtle warm lens flare.",
+            "prompt": f"Cinematic photorealistic 4K shot, fast camera push-in towards a charismatic confident professional looking directly into lens in a modern high-end studio, intense expression, talking with passion, volumetric light rays, DaVinci Resolve color grade --ar 9:16 --motion 6",
+            "vo": f"If you're a {target_audience} still struggling to get consistent results, stop scrolling right now and listen closely.",
+            "ost": f"⚠️ ATTENTION {target_audience.upper()}",
+            "sfx": "Sub-bass boom impact at 0:00, followed by an energetic modern tech synth baseline.",
+            "transition": "Fast whip pan right with motion blur into Scene 2."
+        },
+        {
+            "num": 2,
+            "time": "0:10 - 0:20",
+            "phase": "THE 2:00 AM NIGHTMARE & AGITATION",
+            "camera": "Dutch angle medium tracking shot. Moody 50mm cinema prime lens, bokeh background.",
+            "lighting": "Moody low-key lighting, cool blue ambient tones with screen glow reflecting on face.",
+            "prompt": f"Cinematic photorealistic 4K, over-the-shoulder tracking shot of an overwhelmed {target_audience} sitting late at night at a wooden desk with glowing laptop screens and crumpled papers, looking stressed, moody dark cinematic atmosphere, atmospheric blue and amber lighting --ar 9:16",
+            "vo": f"Most people think working 16-hour days or burning cash on broken methods is the answer. But it only leaves you exhausted.",
+            "ost": "THE OLD WAY IS BROKEN ❌",
+            "sfx": "Muffled ambient clock ticking sound effect with a rising tension swell.",
+            "transition": "Smooth match cut on subject looking up toward camera."
+        },
+        {
+            "num": 3,
+            "time": "0:20 - 0:30",
+            "phase": "THE BREAKTHROUGH & UNIQUE MECHANISM",
+            "camera": "Smooth 360-degree orbital gimbal shot, slowly pulling back into a low-angle hero shot. 24mm wide angle.",
+            "lighting": "Warm golden hour sunlight breaking through the room, softbox 5600K key light, vibrant glow.",
+            "prompt": f"Cinematic 4K hyper-detailed, low-angle hero shot of {product_name} sleek interface and branding glowing with golden holographic aura, modern clean aesthetic, slow circular orbit camera move, photorealistic lighting, Unreal Engine 5 render style --ar 9:16",
+            "vo": f"That is why we built {product_name}. It attacks the root problem directly, giving you a proven step-by-step automated roadmap.",
+            "ost": f"INTRODUCING: {product_name.upper()} ✅",
+            "sfx": "Uplifting glockenspiel chime at 0:21 with full beat drop and driving groove.",
+            "transition": "Push-in zoom into screen interface."
+        },
+        {
+            "num": 4,
+            "time": "0:30 - 0:40",
+            "phase": "THE TRANSFORMATION & PROOF OF RESULTS",
+            "camera": "Dynamic side tracking dolly shot at 60fps slow-motion. 85mm portrait lens, creamy bokeh.",
+            "lighting": "Bright, uplifting, high-key natural sunlight with crisp commercial clarity.",
+            "prompt": f"Cinematic 4K slow motion 60fps shot of happy successful {target_audience} high-fiving team and looking at soaring positive analytics graph on tablet, smiling with relief and genuine joy, modern sunlit creative office, crisp commercial color palette --ar 9:16",
+            "vo": f"Clients using {product_name} have transformed their numbers in record time—cutting stress in half while doubling their output.",
+            "ost": "REAL RESULTS. ZERO GUESSWORK. 📈",
+            "sfx": "Crisp cash register 'ka-ching' chime layered with triumphant synth melody.",
+            "transition": "Directional slide transition to product package."
+        },
+        {
+            "num": 5,
+            "time": "0:40 - 0:50",
+            "phase": "THE GODFATHER VALUE STACK & GUARANTEE",
+            "camera": "Rack focus from foreground 100% money-back guarantee gold seal to 3D product bonus stack. 50mm macro lens.",
+            "lighting": "Studio product lighting with sharp metallic reflections and soft rim glow.",
+            "prompt": f"Hyper-detailed 3D cinematic render of {product_name} complete master toolkit bundle, gold risk-free guarantee badge floating beside bonus blueprints, studio product photography, pristine reflections, slow smooth camera tilt up --ar 9:16",
+            "vo": f"When you take action today, you get the entire system plus exclusive bonus templates—backed by our 100% money-back guarantee.",
+            "ost": "FULL BUNDLE + 100% GUARANTEE 🛡️",
+            "sfx": "Fast whoosh sound for each bonus reveal, confident spoken emphasis.",
+            "transition": "Snap zoom out to presenter holding phone."
+        },
+        {
+            "num": 6,
+            "time": "0:50 - 1:00",
+            "phase": "THE FINAL CALL TO ACTION (CTA) & URGENCY",
+            "camera": "Eye-level medium close-up (MCU) direct address with hand gesturing down to CTA button.",
+            "lighting": "Clean, flattering warm commercial lighting, perfectly balanced exposure.",
+            "prompt": f"Cinematic 4K shot, charismatic creator looking directly into camera with friendly smile, pointing downwards toward the bottom of the frame, modern minimalist background, crisp lighting, high engagement body language --ar 9:16",
+            "vo": f"Click the link right below this video right now to claim your spot and download the blueprint before this promo ends!",
+            "ost": "👇 TAP THE LINK BELOW TO START NOW",
+            "sfx": "Climax musical resolution with a clear interface click / notification chime at 0:59.",
+            "transition": "Fade to branded logo end card."
+        }
+    ]
+
+    for i in range(min(num_scenes, len(scenes_data))):
+        s = scenes_data[i]
+        print(f"\n🎬 SCENE {s['num']} [{s['time']}] — {s['phase']}")
+        print(f"🎥 Camera & Lens: {s['camera']}")
+        print(f"💡 Lighting & Tone: {s['lighting']}")
+        print(f"🤖 AI Video Prompt (Google Veo / Sora / Kling / Runway):")
+        print(f"   \"{s['prompt']}\"")
+        print(f"🎙️ Voiceover (VO - ~20 Words): \"{s['vo']}\"")
+        print(f"📝 On-Screen Text (OST): {s['ost']}")
+        print(f"🎵 Sound Design (SFX/Music): {s['sfx']}")
+        print(f"🔄 Transition Cue: {s['transition']}")
+        print("-" * 80)
+
+
 def generate_blog_post(topic, target_audience, core_mistake, breakthrough_solution, hvco_name, cta_link):
     print("=" * 80)
     print("HIGH-CONVERTING THOUGHT-LEADERSHIP & SEO BLOG TEMPLATE")
@@ -920,6 +1023,13 @@ def main():
     seo_parser.add_argument("--title", default="How to Scale Your Agency in 2026", help="Article Headline")
     seo_parser.add_argument("--desc", default="Discover the step-by-step framework to scale client acquisition.", help="Meta Description")
 
+    # 15. AI Video Scene Creator command
+    ai_vid_parser = subparsers.add_parser("ai-video", help="Generate Hollywood-Grade 10-Second Scene Prompts & Scripts for AI Video Tools")
+    ai_vid_parser.add_argument("--product", default="The 7-Figure Client Engine", help="Product / Service Name")
+    ai_vid_parser.add_argument("--audience", default="B2B Agency Owners", help="Target Audience / Avatar")
+    ai_vid_parser.add_argument("--duration", type=int, default=60, help="Total Video Duration in Seconds (e.g. 30, 60, 90)")
+    ai_vid_parser.add_argument("--more-info", default="Free 15-page blueprint download + 30-day risk-free guarantee", help="Special Offer / Pricing / Key Features")
+
     args = parser.parse_args()
 
     if args.command == "sales-letter":
@@ -950,6 +1060,8 @@ def main():
         generate_tiktok_ad(args.topic, args.avatar, args.pain, args.solution, args.link)
     elif args.command == "seo-tags":
         generate_seo_tags(args.url, args.source_lang, args.alt_langs, args.title, args.desc)
+    elif args.command == "ai-video":
+        generate_ai_video_director_scenes(args.product, args.audience, args.duration, args.more_info)
     else:
         parser.print_help()
 
