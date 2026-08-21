@@ -356,6 +356,165 @@ python3 .agents/skills/marketing-mastery/scripts/marketing_engine.py dub-plan \
 
 ---
 
+## 📱 1-Click Copyable Postable Nuggets (Swipe & Post)
+
+Click the **Copy** button on any box below to post instantly to **Twitter/X, LinkedIn, Threads, Instagram, or WhatsApp Status**:
+
+### 💎 1. Alex Hormozi ($100M Offers)
+
+```text
+"Make an offer so good people feel stupid saying no to you. Price is what they pay; value is what they get. If you increase value by 10x, price resistance completely vanishes."
+
+                                                        — Alex Hormozi ($100M Offers)
+```
+
+```text
+"To charge 10x more for your service, don't work 10x harder. Cut the client's time delay and effort down to near zero. Speed and ease are the two biggest value multipliers."
+
+                                                        — Alex Hormozi ($100M Offers)
+```
+
+```text
+"A single great bonus can convert someone who was completely on the fence. Always price your bonuses separately before bundling them into your Godfather Offer."
+
+                                                        — Alex Hormozi ($100M Offers)
+```
+
+---
+
+### 🎯 2. Sabri Suby (Sell Like Crazy)
+
+```text
+"Only 3% of your market is ready to buy right now. 97% are problem-aware or looking for answers. If you only pitch the 3%, you're fighting in a bloody red ocean. Use a High-Value Content Offer (HVCO) to capture the other 97%."
+
+                                                        — Sabri Suby (Sell Like Crazy)
+```
+
+```text
+"Never sell like a desperate salesperson. Sell like a high-demand specialist doctor who diagnoses the symptoms first before prescribing the cure. If the prospect doesn't qualify, don't pitch."
+
+                                                        — Sabri Suby (Sell Like Crazy)
+```
+
+```text
+"Fancy HTML email templates with big logos look like corporate ads and land in the Promotions tab. Short, raw, plain-text emails look like a friend writing and go straight to the Primary inbox."
+
+                                                        — Sabri Suby (Sell Like Crazy)
+```
+
+---
+
+### 🇳🇬 3. Akin Alabi (How to Sell to Nigerians & Small Business Big Money)
+
+```text
+"In Nigeria, the default assumption is that you are a scammer. Your #1 marketing job is to eliminate fear using overwhelming physical proof, real video unboxings, and clear dispatch terms."
+
+                                                        — Akin Alabi (How to Sell to Nigerians)
+```
+
+```text
+"Never create a product and then look for buyers. Find an existing crowd of hungry, desperate buyers with money, and sell them what they are already buying."
+
+                                                        — Akin Alabi (Small Business Big Money)
+```
+
+```text
+"Nigerians love extra value. Adding 3 tangible free bonus gifts to an offer will triple your conversion rate overnight compared to offering a boring percentage discount."
+
+                                                        — Akin Alabi (How to Sell to Nigerians)
+```
+
+---
+
+### 🗝️ 4. Dan Lok (Unlock It, Influence! & F.U. Money)
+
+```text
+"The Wealth Triangle:
+1. High-Income Skills generate active cash flow ($10k+/mo)
+2. Scalable Business multiplies leverage
+3. High-Return Investments compound wealth"
+
+                                                        — Dan Lok (Unlock It)
+```
+
+```text
+"Power Positioning: Position yourself as the prize to be won, not the beggar asking for business. When you chase clients, they run. When you qualify them, they buy."
+
+                                                        — Dan Lok (Influence!)
+```
+
+```text
+"After you state your price on a sales call, do NOT say a single word. The first person to speak loses. Embrace the awkward silence."
+
+                                                        — Dan Lok (Influence!)
+```
+
+---
+
+### 📖 5. Paul Smith (Sell with a Story)
+
+```text
+"Data and logic lead to conclusions; emotion and story lead to action. Win the heart first with a relatable character and struggle, and the brain will find logical reasons to buy."
+
+                                                        — Paul Smith (Sell with a Story)
+```
+
+```text
+"In your case study stories, your customer is Luke Skywalker; your product is just the lightsaber and you are Yoda. Never make yourself the hero of the client's story."
+
+                                                        — Paul Smith (Sell with a Story)
+```
+
+---
+
+### 📈 6. Brian Tracy (The Psychology of Selling & Negotiation)
+
+```text
+"The Winning Edge: A small improvement of just 3% to 5% in your core selling skills compounds into a 100% to 200% difference in your total income over time."
+
+                                                        — Brian Tracy (The Psychology of Selling)
+```
+
+```text
+"When negotiating, he who cares the least about making the deal always gets the best terms. Always maintain a strong walk-away alternative (BATNA)."
+
+                                                        — Brian Tracy (Negotiation)
+```
+
+---
+
+### 💬 7. Mofe Richard (Sell Like Crazy on WhatsApp)
+
+```text
+"A 20-second warm audio voice note on WhatsApp closes deals 5x faster than a wall of text because it conveys genuine human warmth, energy, and trust."
+
+                                                        — Mofe Richard (WhatsApp Selling)
+```
+
+```text
+"When a customer asks 'How much?' on WhatsApp, never reply with just a number. Always state: Total Value + Promo Price + 3 Free Bonuses + Free Delivery."
+
+                                                        — Mofe Richard (WhatsApp Selling)
+```
+
+---
+
+### 👑 8. John C. Maxwell (The 21 Irrefutable Laws of Leadership)
+
+```text
+"The Law of Connection: Leaders and marketers must touch a heart before they ask for a hand. Connect emotionally and build rapport before asking for money."
+
+                                                        — John C. Maxwell (21 Laws of Leadership)
+```
+
+```text
+"The Law of Buy-In: People buy into the leader first, and then the vision. In business, customers buy into YOU before they buy your product."
+
+                                                        — John C. Maxwell (21 Laws of Leadership)
+```
+
+---
+
 ## 🧠 5 Simple Marketing Truths to Never Forget
 
 1. **Don't only shout at the 3% who want to buy today:** 97% of people have the problem but aren't ready to buy yet. Educate them with free helpful guides, and they will buy from you first.
