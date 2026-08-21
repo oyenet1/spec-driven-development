@@ -329,104 +329,128 @@ def generate_video_ad_script(hook, pain_point, solution_name, proof_point, cta_c
 
 def generate_ai_video_director_scenes(product_name, target_audience, duration_seconds=60, more_info=""):
     print("=" * 80)
-    print("PROFESSIONAL AI VIDEO DIRECTOR — 10-SECOND SCENE PROMPTS & SCRIPT ENGINE")
+    print("HOLLYWOOD-GRADE AI FILM DIRECTOR — 10-SECOND CONTINUOUS SCENE ENGINE")
     print("=" * 80)
     
     num_scenes = max(1, duration_seconds // 10)
     
-    print(f"🎬 PROJECT: {product_name}")
+    # 1. Master Film Continuity Anchor
+    hero_char = f"32-year-old confident {target_audience} hero protagonist, natural expressive face, stylish contemporary wardrobe (navy-blue fitted linen button-up shirt, silver wristwatch), consistent hair and facial features across every angle"
+    master_set = "Modern creative loft studio, rich walnut wood executive workstation, warm ambient architectural lighting, large industrial window with natural daylight, subtle indoor green plants, glass brainstorming board in background"
+    camera_kit = "ARRI Alexa Mini LF, Cooke Anamorphic/i 35mm & 50mm lenses, natural cinematic 24fps motion blur, Kodak Vision3 500T 35mm film grain, DaVinci Resolve film color grade (warm golden skin tones, rich deep contrast, subtle teal shadows)"
+
+    print(f"🎬 FILM PROJECT: {product_name}")
     print(f"🎯 TARGET AUDIENCE: {target_audience}")
-    print(f"⏱️ TOTAL RUNTIME: {duration_seconds} Seconds ({num_scenes} Continuous 10s Scenes)")
+    print(f"⏱️ TOTAL RUNTIME: {duration_seconds} Seconds ({num_scenes} Continuous 10s Scenes — ONE Single Film)")
     if more_info:
-        print(f"💡 SPECIAL DETAILS / OFFER: {more_info}")
+        print(f"💡 SPECIAL OFFER / DETAILS: {more_info}")
+    
+    print("\n" + "=" * 80)
+    print("🔒 [MASTER FILM CONTINUITY ANCHOR — LOCKED FOR ALL SCENES]")
+    print("=" * 80)
+    print(f"• HERO CHARACTER: {hero_char}")
+    print(f"• ENVIRONMENT & SET: {master_set}")
+    print(f"• CAMERA & OPTICS: {camera_kit}")
+    
+    print("\n" + "=" * 80)
+    print("🎙️ [UNBROKEN MASTER SCRIPT — 60-SECOND CONTINUOUS VOICE FLOW]")
+    print("=" * 80)
+    print(f'"{target_audience}, if you are tired of burning time and money on broken methods that leave you exhausted, listen closely. Traditional advice tells you to grind 16 hours a day, but that only leads to burnout. That is why we engineered {product_name}—a proven, automated framework that attacks the root problem directly. Our clients are cutting their workload in half while doubling their output with predictable consistency. When you join today, you get the complete master toolkit plus exclusive bonuses, backed by our 100% money-back guarantee. Click the link below right now and claim your free blueprint before this limited promotion ends."')
     print("=" * 80)
 
     scenes_data = [
         {
             "num": 1,
             "time": "0:00 - 0:10",
-            "phase": "THE PATTERN INTERRUPT HOOK",
-            "camera": "Extreme Close-Up (ECU) fast push-in to Medium Close-Up (MCU). 35mm anamorphic lens, f/1.8 shallow depth of field, 24fps cinematic motion blur.",
-            "lighting": "High-contrast dynamic volumetric rim lighting with subtle warm lens flare.",
-            "prompt": f"Cinematic photorealistic 4K shot, fast camera push-in towards a charismatic confident professional looking directly into lens in a modern high-end studio, intense expression, talking with passion, volumetric light rays, DaVinci Resolve color grade --ar 9:16 --motion 6",
+            "phase": "SCENE 1: THE PATTERN INTERRUPT HOOK",
+            "camera": "Extreme Close-Up (ECU) fast push-in to Medium Close-Up (MCU). 35mm Cooke Anamorphic, f/1.8 shallow depth of field, 24fps film motion blur.",
+            "lighting": "High-contrast dynamic volumetric rim lighting with subtle warm lens flare entering from window.",
+            "prompt": f"Cinematic 4K film shot, fast camera push-in towards {hero_char}, looking directly into lens in {master_set}, intense passionate expression, speaking directly to viewer with authority, volumetric light rays, shot on {camera_kit} --ar 9:16 --motion 6",
             "vo": f"If you're a {target_audience} still struggling to get consistent results, stop scrolling right now and listen closely.",
             "ost": f"⚠️ ATTENTION {target_audience.upper()}",
-            "sfx": "Sub-bass boom impact at 0:00, followed by an energetic modern tech synth baseline.",
-            "transition": "Fast whip pan right with motion blur into Scene 2."
+            "sfx": "Sub-bass boom impact at 0:00, followed by an energetic, driving modern tech baseline.",
+            "match_cut": "Ending frame shows hero gesturing towards the workstation screen. Camera finishes moving inward.",
+            "transition": "Match cut to over-the-shoulder angle at the exact same workstation (Scene 2)."
         },
         {
             "num": 2,
             "time": "0:10 - 0:20",
-            "phase": "THE 2:00 AM NIGHTMARE & AGITATION",
-            "camera": "Dutch angle medium tracking shot. Moody 50mm cinema prime lens, bokeh background.",
-            "lighting": "Moody low-key lighting, cool blue ambient tones with screen glow reflecting on face.",
-            "prompt": f"Cinematic photorealistic 4K, over-the-shoulder tracking shot of an overwhelmed {target_audience} sitting late at night at a wooden desk with glowing laptop screens and crumpled papers, looking stressed, moody dark cinematic atmosphere, atmospheric blue and amber lighting --ar 9:16",
-            "vo": f"Most people think working 16-hour days or burning cash on broken methods is the answer. But it only leaves you exhausted.",
+            "phase": "SCENE 2: THE 2:00 AM NIGHTMARE & AGITATION",
+            "camera": "Over-the-shoulder medium tracking shot at the SAME desk. 50mm cinema prime lens, creamy bokeh.",
+            "lighting": "Moody low-key lighting in the same loft set, blue screen glow illuminating hero's face and hands.",
+            "prompt": f"Cinematic 4K film shot, over-the-shoulder tracking shot of the SAME {hero_char} sitting at the exact same desk in {master_set}, reviewing stressful complex charts on computer screen, looking frustrated by outdated workflows, moody blue and amber rim lighting, shot on {camera_kit} --ar 9:16",
+            "vo": "Most people think working 16-hour days or burning cash on broken methods is the answer. But it only leaves you exhausted.",
             "ost": "THE OLD WAY IS BROKEN ❌",
-            "sfx": "Muffled ambient clock ticking sound effect with a rising tension swell.",
-            "transition": "Smooth match cut on subject looking up toward camera."
+            "sfx": "Muffled ambient clock ticking with a subtle tension riser swell.",
+            "match_cut": "Ending frame shows hero pausing and looking up as sudden realization strikes.",
+            "transition": "Match cut on hero's upward gaze as warm sunrise light fills the loft (Scene 3)."
         },
         {
             "num": 3,
             "time": "0:20 - 0:30",
-            "phase": "THE BREAKTHROUGH & UNIQUE MECHANISM",
-            "camera": "Smooth 360-degree orbital gimbal shot, slowly pulling back into a low-angle hero shot. 24mm wide angle.",
-            "lighting": "Warm golden hour sunlight breaking through the room, softbox 5600K key light, vibrant glow.",
-            "prompt": f"Cinematic 4K hyper-detailed, low-angle hero shot of {product_name} sleek interface and branding glowing with golden holographic aura, modern clean aesthetic, slow circular orbit camera move, photorealistic lighting, Unreal Engine 5 render style --ar 9:16",
+            "phase": "SCENE 3: THE BREAKTHROUGH & UNIQUE MECHANISM",
+            "camera": "Smooth 360-degree orbital gimbal shot pulling back into a low-angle hero shot. 24mm wide anamorphic.",
+            "lighting": "Warm golden hour sunlight breaking through the loft window, vibrant 5600K key light, cinematic bloom.",
+            "prompt": f"Cinematic 4K hyper-detailed film shot, smooth 360 orbit around the SAME {hero_char} smiling with relief in {master_set} as {product_name} sleek holographic dashboard glows with golden aura, modern clean UI, photorealistic, shot on {camera_kit} --ar 9:16",
             "vo": f"That is why we built {product_name}. It attacks the root problem directly, giving you a proven step-by-step automated roadmap.",
             "ost": f"INTRODUCING: {product_name.upper()} ✅",
             "sfx": "Uplifting glockenspiel chime at 0:21 with full beat drop and driving groove.",
-            "transition": "Push-in zoom into screen interface."
+            "match_cut": "Ending frame shows hero standing up and turning right towards team area.",
+            "transition": "Motion match pan following hero's walking motion to the lounge area (Scene 4)."
         },
         {
             "num": 4,
             "time": "0:30 - 0:40",
-            "phase": "THE TRANSFORMATION & PROOF OF RESULTS",
-            "camera": "Dynamic side tracking dolly shot at 60fps slow-motion. 85mm portrait lens, creamy bokeh.",
-            "lighting": "Bright, uplifting, high-key natural sunlight with crisp commercial clarity.",
-            "prompt": f"Cinematic 4K slow motion 60fps shot of happy successful {target_audience} high-fiving team and looking at soaring positive analytics graph on tablet, smiling with relief and genuine joy, modern sunlit creative office, crisp commercial color palette --ar 9:16",
+            "phase": "SCENE 4: THE TRANSFORMATION & REAL PROOF",
+            "camera": "Dynamic side tracking dolly shot at 60fps slow-motion. 85mm portrait lens, buttery bokeh.",
+            "lighting": "Bright, uplifting, high-key natural sunlight across the loft studio.",
+            "prompt": f"Cinematic 4K slow motion 60fps film shot, side tracking dolly of the SAME {hero_char} holding a sleek tablet showing green upward revenue spike, high-fiving smiling colleague in {master_set}, genuine joy and confidence, shot on {camera_kit} --ar 9:16",
             "vo": f"Clients using {product_name} have transformed their numbers in record time—cutting stress in half while doubling their output.",
             "ost": "REAL RESULTS. ZERO GUESSWORK. 📈",
             "sfx": "Crisp cash register 'ka-ching' chime layered with triumphant synth melody.",
-            "transition": "Directional slide transition to product package."
+            "match_cut": "Ending frame shows hero placing tablet on table and gesturing to product bundle.",
+            "transition": "Rack focus match cut onto the table surface (Scene 5)."
         },
         {
             "num": 5,
             "time": "0:40 - 0:50",
-            "phase": "THE GODFATHER VALUE STACK & GUARANTEE",
-            "camera": "Rack focus from foreground 100% money-back guarantee gold seal to 3D product bonus stack. 50mm macro lens.",
-            "lighting": "Studio product lighting with sharp metallic reflections and soft rim glow.",
-            "prompt": f"Hyper-detailed 3D cinematic render of {product_name} complete master toolkit bundle, gold risk-free guarantee badge floating beside bonus blueprints, studio product photography, pristine reflections, slow smooth camera tilt up --ar 9:16",
-            "vo": f"When you take action today, you get the entire system plus exclusive bonus templates—backed by our 100% money-back guarantee.",
+            "phase": "SCENE 5: THE GODFATHER VALUE STACK & GUARANTEE",
+            "camera": "Rack focus from foreground 100% money-back guarantee gold seal to 3D product bonus stack beside hero. 50mm macro lens.",
+            "lighting": "Pristine commercial studio product lighting in the loft, crisp metallic reflections.",
+            "prompt": f"Hyper-detailed 3D cinematic film render of {product_name} complete toolkit bundle and bonus templates on the wooden desk in {master_set}, gold risk-free guarantee badge gleaming with light, the SAME {hero_char} standing proudly in background, shot on {camera_kit} --ar 9:16",
+            "vo": "When you take action today, you get the entire system plus exclusive bonus templates—backed by our 100% money-back guarantee.",
             "ost": "FULL BUNDLE + 100% GUARANTEE 🛡️",
-            "sfx": "Fast whoosh sound for each bonus reveal, confident spoken emphasis.",
-            "transition": "Snap zoom out to presenter holding phone."
+            "sfx": "Fast whoosh sound for each bonus reveal with confident voice accentuation.",
+            "match_cut": "Ending frame shows hero stepping forward toward camera.",
+            "transition": "Snap push to front eye-level MCU (Scene 6)."
         },
         {
             "num": 6,
             "time": "0:50 - 1:00",
-            "phase": "THE FINAL CALL TO ACTION (CTA) & URGENCY",
-            "camera": "Eye-level medium close-up (MCU) direct address with hand gesturing down to CTA button.",
-            "lighting": "Clean, flattering warm commercial lighting, perfectly balanced exposure.",
-            "prompt": f"Cinematic 4K shot, charismatic creator looking directly into camera with friendly smile, pointing downwards toward the bottom of the frame, modern minimalist background, crisp lighting, high engagement body language --ar 9:16",
-            "vo": f"Click the link right below this video right now to claim your spot and download the blueprint before this promo ends!",
+            "phase": "SCENE 6: THE FINAL CALL TO ACTION (CTA) & URGENCY",
+            "camera": "Front eye-level medium close-up (MCU) direct address with hand gesturing down to CTA button.",
+            "lighting": "Clean, flattering warm commercial lighting, golden hour glow through windows.",
+            "prompt": f"Cinematic 4K film shot, the SAME {hero_char} looking directly into camera with warm engaging smile in {master_set}, pointing downwards toward the bottom of the frame with urgency, shot on {camera_kit} --ar 9:16",
+            "vo": "Click the link right below this video right now to claim your spot and download the blueprint before this promo ends!",
             "ost": "👇 TAP THE LINK BELOW TO START NOW",
             "sfx": "Climax musical resolution with a clear interface click / notification chime at 0:59.",
-            "transition": "Fade to branded logo end card."
+            "match_cut": "Final frame locks hero smiling and pointing down.",
+            "transition": "Smooth 0.5s fade to branded logo end card with active URL link."
         }
     ]
 
     for i in range(min(num_scenes, len(scenes_data))):
         s = scenes_data[i]
-        print(f"\n🎬 SCENE {s['num']} [{s['time']}] — {s['phase']}")
-        print(f"🎥 Camera & Lens: {s['camera']}")
+        print(f"\n🎬 {s['phase']} [{s['time']}]")
+        print(f"🎥 Camera & Optics: {s['camera']}")
         print(f"💡 Lighting & Tone: {s['lighting']}")
         print(f"🤖 AI Video Prompt (Google Veo / Sora / Kling / Runway):")
         print(f"   \"{s['prompt']}\"")
-        print(f"🎙️ Voiceover (VO - ~20 Words): \"{s['vo']}\"")
+        print(f"🎙️ Spoken Voiceover (VO): \"{s['vo']}\"")
         print(f"📝 On-Screen Text (OST): {s['ost']}")
-        print(f"🎵 Sound Design (SFX/Music): {s['sfx']}")
-        print(f"🔄 Transition Cue: {s['transition']}")
+        print(f"🎵 Sound Design: {s['sfx']}")
+        print(f"🎯 Match Cut Continuity: {s['match_cut']}")
+        print(f"🔄 Transition to Next Scene: {s['transition']}")
         print("-" * 80)
 
 

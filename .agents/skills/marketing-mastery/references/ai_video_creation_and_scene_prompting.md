@@ -1,14 +1,55 @@
-# AI Video Creator & 10-Second Scene Director Playbook
+# AI Video Creator & 10-Second Scene Director Playbook (Film Continuity & Cinematic Unity)
 
-> **Core Philosophy:** Direct-response video ads must combine Hollywood cinematography with Sabri Suby & Alex Hormozi persuasion psychology. Every 10-second clip must hook, hold, and transition seamlessly without context loss when stitched together.
+> **Core Philosophy:** A high-converting video ad must not look like 6 disconnected AI clips stitched at random. It must look and feel like **ONE cohesive cinematic film** with the same hero actor, the same consistent environment, smooth motion continuity, and an unbroken spoken narrative.
 
 ---
 
-## 1. Professional Cinematography & Video Directing Glossary
+## 1. The 4 Laws of AI Film Continuity (One Seamless Movie)
 
-When generating visual prompts for AI video generators (Google Veo, OpenAI Sora, Kling AI, Runway Gen-3, Pika Labs, Luma Dream Machine), use precise film industry terms:
+When generating AI video clips in 10-second segments (using Google Veo, Sora, Kling, Runway Gen-3, Pika, Luma Dream Machine), follow these 4 strict continuity rules:
 
-### Shot Sizes & Angles:
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│ THE 4 LAWS OF CINEMATIC CONTINUITY                                     │
+│                                                                        │
+│ 👤 LAW 1: CHARACTER & WARDROBE LOCK                                   │
+│ • The protagonist's physical description (age, facial structure, skin  │
+│   tone, haircut, facial hair, clothing, watch, accessories) is defined│
+│   in a "Master Character Anchor" and repeated in EVERY scene prompt.   │
+│                                                                        │
+│ 🏢 LAW 2: SPATIAL & SET CONTINUITY                                     │
+│ • The set/room architecture (window position, desk wood type, wall art,│
+│   lighting fixtures) remains fixed in 3D space across all angles.      │
+│                                                                        │
+│ 🔄 LAW 3: MATCH CUTTING & MOTION VECTOR CONTINUITY                     │
+│ • The camera move and character action at the final second of Scene N  │
+│   directly dictates the starting position of Scene N+1 (e.g. if Scene 1│
+│   ends with a push-in on a screen, Scene 2 begins on that same screen).│
+│                                                                        │
+│ 🎙️ LAW 4: UNBROKEN NARRATIVE VOICE (ONE SINGLE MASTER VO SCRIPT)       │
+│ • The voiceover is written as one fluid, natural, uninterrupted        │
+│   sentence/speech that seamlessly spans across the entire video.       │
+└────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 2. The Master Film Continuity Anchor (Copy into Every Prompt)
+
+Before generating individual scene prompts, establish your **Master Continuity Anchor**:
+
+```text
+[MASTER FILM CONTINUITY ANCHOR]
+• Hero Subject: 32-year-old confident professional, sharp jawline, short fade haircut, wearing a navy-blue fitted linen button-up shirt with silver wristwatch.
+• Main Set: Modern creative loft office, warm walnut wood executive desk, sleek glowing computer monitors, frosted glass whiteboard with marketing flowcharts in background, large industrial window with warm sunlight.
+• Cinematic Camera Kit: Shot on ARRI Alexa Mini LF, Cooke Anamorphic/i 35mm & 50mm lenses, shallow depth of field, natural 24fps motion blur, Kodak Vision3 500T 35mm film grain, color graded in DaVinci Resolve (warm amber skin tones, rich dark shadows, subtle teal accents).
+```
+
+---
+
+## 3. Professional Cinematography & Video Directing Glossary
+
+### Shot Sizes & Framing:
 - **ECU (Extreme Close-Up):** Focuses on eyes, facial micro-expressions, or product detail.
 - **MCU (Medium Close-Up):** Chest up, standard for high-trust direct-to-camera address.
 - **Wide Establishing Shot (EWS):** Sets the physical environment and emotional atmosphere.
@@ -23,57 +64,40 @@ When generating visual prompts for AI video generators (Google Veo, OpenAI Sora,
 - **Rack Focus:** Shifts depth of field from background problem to foreground solution.
 - **Whip Pan:** Rapid horizontal blur transition connecting two high-energy scenes.
 
-### Lighting, Optics & Style Parameters:
-- **Lenses:** `35mm anamorphic lens`, `85mm portrait lens f/1.4`, `cinematic shallow depth of field`, `bokeh background`.
-- **Lighting:** `Volumetric rim lighting`, `golden hour warm backlight`, `5600K clean studio softbox`, `moody low-key chiaroscuro`.
-- **Render Fidelity:** `4K photorealistic, 24fps film motion blur, hyper-detailed textures, color graded in DaVinci Resolve, Kodak Vision3 500T film grain`.
-
 ---
 
-## 2. The 10-Second Continuous Scene Formula (Zero Context Loss)
-
-Modern AI video generators produce optimal results in **5-to-10 second increments**. To create a 30s, 60s, or 90s complete video without narrative disconnect:
+## 4. The 6-Scene (60-Second) Continuous Movie Ad Structure
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
-│ THE 6-SCENE (60-SECOND) CONTINUOUS VIDEO AD ARCHITECTURE               │
-│                                                                        │
 │ 🎬 SCENE 1 [0:00 - 0:10]: THE PATTERN INTERRUPT HOOK                   │
-│ • High-energy visual shock, avatar callout, problem trigger.          │
-│ • Camera: Fast push-in / ECU. SFX: Low sub-bass drop + whoosh.        │
-│                                                                        │
+│ • Hero looks directly into camera in the master loft office.           │
+│ • Action: Fast push-in on hero speaking passionately.                  │
+│ • Ending Frame: Hero points down towards the desk screen.              │
+├────────────────────────────────────────────────────────────────────────┤
 │ 🎬 SCENE 2 [0:10 - 0:20]: THE 2:00 AM NIGHTMARE & AGITATION           │
-│ • Visualizes the frustration, wasted budget, and failed methods.       │
-│ • Camera: Moody over-the-shoulder tracking. SFX: Tension riser.        │
-│                                                                        │
+│ • Match Cut: Camera is over-the-shoulder of the SAME hero at same desk.│
+│ • Action: Lighting shifts to moody night glow; hero reviews messy data.│
+│ • Ending Frame: Hero pauses, looking up as inspiration hits.           │
+├────────────────────────────────────────────────────────────────────────┤
 │ 🎬 SCENE 3 [0:20 - 0:30]: THE BREAKTHROUGH / UNIQUE MECHANISM          │
-│ • The "Aha!" moment introducing the product as the new vehicle.        │
-│ • Camera: Low-angle orbit with glowing rim light. SFX: Chime / ding.   │
-│                                                                        │
-│ 🎬 SCENE 4 [0:30 - 0:40]: THE TRANSFORMATION & DREAM OUTCOME           │
-│ • Visual proof of speed, ease, and real-world transformation.          │
-│ • Camera: Slow-motion 60fps gimbal glide. SFX: Upbeat beat drop.       │
-│                                                                        │
+│ • Match Cut: Daybreak light floods into the same room.                 │
+│ • Action: Hero opens product dashboard on screen; 360 orbit around hero│
+│ • Ending Frame: Dashboard displays green positive conversion spike.    │
+├────────────────────────────────────────────────────────────────────────┤
+│ 🎬 SCENE 4 [0:30 - 0:40]: THE TRANSFORMATION & REAL PROOF              │
+│ • Motion Match: Camera tracks with hero walking across the sunlit set. │
+│ • Action: Hero high-fives colleague; holds tablet showing real growth. │
+│ • Ending Frame: Hero sets tablet on table, turns to address viewer.    │
+├────────────────────────────────────────────────────────────────────────┤
 │ 🎬 SCENE 5 [0:40 - 0:50]: THE GODFATHER VALUE STACK & GUARANTEE        │
-│ • 3D product stack, sweetener bonuses, and 100% risk-reversal badge.   │
-│ • Camera: Dynamic rack focus product showcase. SFX: Snappy whooshes.   │
-│                                                                        │
+│ • Match Cut: Close-up on the desk; 3D master bundle and gold guarantee │
+│   seal materializes beside the hero.                                   │
+│ • Ending Frame: Hero holds up the bonus guide confidently.             │
+├────────────────────────────────────────────────────────────────────────┤
 │ 🎬 SCENE 6 [0:50 - 1:00]: THE FINAL CALL TO ACTION (CTA) & URGENCY    │
-│ • Direct address, finger pointing to button/link, limited offer timer. │
-│ • Camera: High-trust eye-level MCU. SFX: Climax music sting + notification.│
+│ • Match Cut: Front eye-level MCU on the same hero smiling in warm light│
+│ • Action: Hero points directly to bottom link button with urgency.     │
+│ • Ending Frame: Seamless fade to branded call-to-action end card.      │
 └────────────────────────────────────────────────────────────────────────┘
 ```
-
----
-
-## 3. Standard 10-Second Scene Specification Block
-
-Every scene generated by the system contains these 7 distinct director fields:
-
-1. **Scene Timecode & Role:** e.g., `Scene 1 [0:00 - 0:10] (Hook & Avatar Callout)`.
-2. **Filmmaker Camera & Optics:** Shot size, camera move, lens type, lighting setup.
-3. **AI Video Prompt (Google Veo / Sora / Kling / Runway):** Exact copy-paste prompt with subject, environment, lighting, and action.
-4. **Voiceover Script (VO):** 20–25 spoken words perfectly timed to 10 seconds.
-5. **On-Screen Text (OST):** Kinetic typography captions and highlighting.
-6. **Sound Design (SFX & BGM):** Background music pacing and sound effects.
-7. **Transition Cue:** How to cut or pan into the next scene for zero context loss.
